@@ -1,0 +1,32 @@
+{
+  "dataset_id": "offline_example_v1",
+  "scenario": "offline_example",
+  "language": "el",
+  "total_sentences": 3,
+  "source": [
+    "Newly authored synthetic examples; not paper data."
+  ],
+  "sentences": [
+    {
+      "id": "example_001",
+      "text": "Γεια σου κόσμε.",
+      "source_url": "https://example.org/athena-tts-bench/offline-fixture",
+      "word_count": 3,
+      "characteristics": {}
+    },
+    {
+      "id": "example_002",
+      "text": "Το 2024 ήταν σπουδαίο έτος.",
+      "source_url": "https://example.org/athena-tts-bench/offline-fixture",
+      "word_count": 5,
+      "characteristics": {}
+    },
+    {
+      "id": "example_003",
+      "text": "Φέρε ψωμί, τυρί κ.λπ. αύριο.",
+      "source_url": "https://example.org/athena-tts-bench/offline-fixture",
+      "word_count": 5,
+      "characteristics": {}
+    }
+  ]
+}

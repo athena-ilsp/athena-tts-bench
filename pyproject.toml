@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "athena-tts-bench"
+version = "0.1.0"
+description = "AthenaTTS-Bench: evaluation tooling for Modern Greek speech synthesis"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+authors = [
+  {name = "Georgios Syllas"},
+  {name = "Kosmas Kritsis"},
+  {name = "Georgios Paraskevopoulos"},
+  {name = "Vassilis Katsouros"},
+]
+
+[project.urls]
+Repository = "https://github.com/athena-ilsp/athena-tts-bench"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+llm = ["openai>=1.0", "anthropic>=0.30"]
+local-normalizer = ["transformers>=4.52", "torch", "accelerate"]
+asr = ["whisperx"]
+judge = ["transformers>=4.52", "qwen-omni-utils", "torch", "accelerate", "soundfile"]
+gemini = ["google-genai>=1.0"]
+speaker = ["speechbrain", "torch", "torchaudio"]
+utmos = ["torch", "torchaudio", "soundfile"]
+
+[tool.setuptools]
+packages = ["greekttsbench", "preprocessing"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

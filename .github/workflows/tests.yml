@@ -1,0 +1,29 @@
+name: Offline checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install package and test dependencies
+        run: python -m pip install '.[dev]'
+      - name: Verify installed package imports
+        run: python -I -c "import greekttsbench, preprocessing"
+      - name: Verify imported implementation bytes
+        run: sha256sum -c docs/imported_files.sha256
+      - name: Validate example
+        run: python scripts/validate_datasets.py --datasets-dir examples/offline/datasets --strict-word-count
+      - name: Run offline example
+        run: python scripts/offline_example.py
+      - name: Run unit tests
+        run: python -m pytest -q

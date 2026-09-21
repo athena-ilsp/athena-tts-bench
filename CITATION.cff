@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use AthenaTTS-Bench, cite the accompanying SLT 2026 paper."
+type: software
+title: AthenaTTS-Bench
+url: "https://github.com/athena-ilsp/athena-tts-bench"
+repository-code: "https://github.com/athena-ilsp/athena-tts-bench"
+authors:
+  - family-names: Syllas
+    given-names: Georgios
+  - family-names: Kritsis
+    given-names: Kosmas
+  - family-names: Paraskevopoulos
+    given-names: Georgios
+  - family-names: Katsouros
+    given-names: Vassilis
+preferred-citation:
+  type: conference-paper
+  title: "AthenaTTS-Bench: Evaluation Framework for Complex Linguistic Challenges in Modern Greek"
+  authors:
+    - family-names: Syllas
+      given-names: Georgios
+    - family-names: Kritsis
+      given-names: Kosmas
+    - family-names: Paraskevopoulos
+      given-names: Georgios
+    - family-names: Katsouros
+      given-names: Vassilis
+  year: 2026
+  conference:
+    name: "IEEE Spoken Language Technology Workshop (SLT)"

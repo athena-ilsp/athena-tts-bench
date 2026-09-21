@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+*.env
+*.pem
+*.key
+# Generated audio, weights, and local runs belong outside ordinary Git history.
+*.wav
+*.flac
+*.mp3
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+artifacts/
+outputs/
+# Original participant exports and local provenance snapshots are private.
+**/raw_answers/
+private/
+local_stash_*/
