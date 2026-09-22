@@ -1,0 +1,209 @@
+{
+  "dataset_id": "morphological_complexity_v1",
+  "language": "el",
+  "scenario": "morphological_complexity",
+  "sentences": [
+    {
+      "characteristics": {
+        "has_clitics": true,
+        "subcategory": "clitic_pronoun_chains"
+      },
+      "id": "el_morph_001",
+      "source_url": null,
+      "text": "Δώσ' το μου το βιβλίο σου να το διαβάσω απόψε.",
+      "word_count": 10
+    },
+    {
+      "characteristics": {
+        "has_clitics": true,
+        "subcategory": "clitic_pronoun_chains"
+      },
+      "id": "el_morph_002",
+      "source_url": null,
+      "text": "Φέρε μού το αμέσως, γιατί το χρειάζομαι επειγόντως.",
+      "word_count": 8
+    },
+    {
+      "characteristics": {
+        "has_clitics": true,
+        "subcategory": "clitic_pronoun_chains"
+      },
+      "id": "el_morph_006",
+      "source_url": null,
+      "text": "Γράψε μού την ολόκληρη την ιστορία από την αρχή ως το τέλος.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_clitics": true,
+        "subcategory": "clitic_pronoun_chains"
+      },
+      "id": "el_morph_007",
+      "source_url": null,
+      "text": "Δείξε μού το και μένα το δώρο που σου έφεραν τα παιδιά χθες.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_clitics": true,
+        "subcategory": "clitic_pronoun_chains"
+      },
+      "id": "el_morph_008",
+      "source_url": null,
+      "text": "Αγόρασέ μού το σε παρακαλώ αν το βρεις στο βιβλιοπωλείο εκείνο.",
+      "word_count": 11
+    },
+    {
+      "characteristics": {
+        "has_compound_words": true,
+        "subcategory": "compound_words"
+      },
+      "id": "el_morph_011",
+      "source_url": null,
+      "text": "Η αλληλοεξυπηρέτηση των τμημάτων του οργανισμού βελτίωσε τη συνολική παραγωγικότητα.",
+      "word_count": 11
+    },
+    {
+      "characteristics": {
+        "has_compound_words": true,
+        "subcategory": "compound_words"
+      },
+      "id": "el_morph_012",
+      "source_url": null,
+      "text": "Η διαπραγματευσιμότητα των νέων ομολόγων ήταν περιορισμένη στις διεθνείς αγορές κεφαλαίου.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_compound_words": true,
+        "subcategory": "compound_words"
+      },
+      "id": "el_morph_014",
+      "source_url": null,
+      "text": "Οι στρατοδικειοφυλακισθέντες αφέθηκαν ελεύθεροι μετά τη γενική αμνηστία που εξαγγέλθηκε.",
+      "word_count": 11
+    },
+    {
+      "characteristics": {
+        "has_compound_words": true,
+        "subcategory": "compound_words"
+      },
+      "id": "el_morph_015",
+      "source_url": null,
+      "text": "Η υπερσυνταγογράφηση αντιβιοτικών από τους γιατρούς αποτελεί σοβαρό πρόβλημα δημόσιας υγείας.",
+      "word_count": 12
+    },
+    {
+      "characteristics": {
+        "has_genitive_chains": true,
+        "subcategory": "genitive_chains"
+      },
+      "id": "el_morph_018",
+      "source_url": null,
+      "text": "Η έκθεση της επιτροπής του συλλόγου των καθηγητών του τμήματος κατατέθηκε στον πρύτανη.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_genitive_chains": true,
+        "subcategory": "genitive_chains"
+      },
+      "id": "el_morph_020",
+      "source_url": null,
+      "text": "Η ανάλυση των δεδομένων της έρευνας του ινστιτούτου της ακαδημίας έδειξε σημαντική πρόοδο.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_genitive_chains": true,
+        "subcategory": "genitive_chains"
+      },
+      "id": "el_morph_021",
+      "source_url": null,
+      "text": "Η προστασία του περιβάλλοντος της περιοχής του δήμου της πρωτεύουσας ενισχύθηκε με νέα μέτρα.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_passive_deponent": true,
+        "subcategory": "passive_deponent"
+      },
+      "id": "el_morph_025",
+      "source_url": null,
+      "text": "Θα πραγματοποιηθεί η συναυλία στο Ηρώδειο αν ο καιρός το επιτρέψει το Σάββατο το βράδυ.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_passive_deponent": true,
+        "subcategory": "passive_deponent"
+      },
+      "id": "el_morph_029",
+      "source_url": null,
+      "text": "Ο διαγωνισμός θα διεξαχθεί την Παρασκευή και θα διαρκέσει συνολικά τέσσερις ώρες.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_stress_shift": true,
+        "subcategory": "stress_shift_pairs"
+      },
+      "id": "el_morph_031",
+      "source_url": null,
+      "text": "Ο άνθρωπος του αιώνα μας ζει σε μια εποχή ραγδαίων τεχνολογικών εξελίξεων.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_stress_shift": true,
+        "subcategory": "stress_shift_pairs"
+      },
+      "id": "el_morph_033",
+      "source_url": null,
+      "text": "Οι άνθρωποι της εποχής μας οφείλουν να προστατεύσουν το περιβάλλον για τις επόμενες γενιές.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_stress_shift": true,
+        "subcategory": "stress_shift_pairs"
+      },
+      "id": "el_morph_035",
+      "source_url": null,
+      "text": "Ο δάσκαλος του σχολείου μας βραβεύτηκε χθες για το εκπαιδευτικό του έργο στον νομό.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_stress_shift": true,
+        "subcategory": "stress_shift_pairs"
+      },
+      "id": "el_morph_036",
+      "source_url": null,
+      "text": "Η γνώμη του δασκάλου ήταν καθοριστική για την επιλογή των μαθητών που θα διακριθούν.",
+      "word_count": 15
+    },
+    {
+      "characteristics": {
+        "has_subjunctive_optative": true,
+        "subcategory": "subjunctive_optative"
+      },
+      "id": "el_morph_037",
+      "source_url": null,
+      "text": "Ας έρθει όποτε θέλει, αρκεί να με ειδοποιήσει τουλάχιστον μία ώρα νωρίτερα.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_subjunctive_optative": true,
+        "subcategory": "subjunctive_optative"
+      },
+      "id": "el_morph_040",
+      "source_url": null,
+      "text": "Ας πηγαίναμε μια βόλτα στην παραλία τώρα που ο ήλιος δύει πίσω από το βουνό.",
+      "word_count": 17
+    }
+  ],
+  "source": "Greek morphological benchmark corpus",
+  "total_sentences": 20
+}

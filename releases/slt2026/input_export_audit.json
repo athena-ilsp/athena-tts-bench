@@ -1,0 +1,762 @@
+{
+  "checks": {
+    "core_result_joins": 5040,
+    "core_rows": 5040,
+    "heldout_result_joins": 560,
+    "heldout_rows": 560,
+    "normalized_inputs": 420,
+    "selected_sentences": 140,
+    "speaker_reference_score_joins": 5600,
+    "variant_text_mismatches": 0,
+    "vits_core_speakers": {
+      "0": 210,
+      "1": 210
+    }
+  },
+  "handoff_whitespace_changes": [
+    "greek_codeswitch_v1_cs_015_llm_chatterbox_el_base_female",
+    "greek_punctuation_v1_pn_014_llm_chatterbox_el_base_female",
+    "morphological_complexity_v1_el_morph_018_llm_chatterbox_el_base_female",
+    "morphological_complexity_v1_el_morph_025_llm_chatterbox_el_base_female",
+    "greek_codeswitch_v1_cs_015_llm_chatterbox_el_base_male",
+    "greek_punctuation_v1_pn_014_llm_chatterbox_el_base_male",
+    "morphological_complexity_v1_el_morph_018_llm_chatterbox_el_base_male",
+    "morphological_complexity_v1_el_morph_025_llm_chatterbox_el_base_male",
+    "greek_codeswitch_v1_cs_015_llm_chatterbox_el_lora3_female",
+    "greek_punctuation_v1_pn_014_llm_chatterbox_el_lora3_female",
+    "morphological_complexity_v1_el_morph_018_llm_chatterbox_el_lora3_female",
+    "morphological_complexity_v1_el_morph_025_llm_chatterbox_el_lora3_female",
+    "greek_codeswitch_v1_cs_015_llm_chatterbox_el_lora3_male",
+    "greek_punctuation_v1_pn_014_llm_chatterbox_el_lora3_male",
+    "morphological_complexity_v1_el_morph_018_llm_chatterbox_el_lora3_male",
+    "morphological_complexity_v1_el_morph_025_llm_chatterbox_el_lora3_male",
+    "greek_codeswitch_v1_cs_015_llm_greek_male_lora_colab",
+    "greek_punctuation_v1_pn_014_llm_greek_male_lora_colab",
+    "morphological_complexity_v1_el_morph_018_llm_greek_male_lora_colab",
+    "morphological_complexity_v1_el_morph_025_llm_greek_male_lora_colab",
+    "greek_codeswitch_v1_cs_015_llm_parler_tts_el_det_michalis",
+    "greek_punctuation_v1_pn_014_llm_parler_tts_el_det_michalis",
+    "morphological_complexity_v1_el_morph_018_llm_parler_tts_el_det_michalis",
+    "morphological_complexity_v1_el_morph_025_llm_parler_tts_el_det_michalis",
+    "greek_codeswitch_v1_cs_015_llm_parler_tts_el_det_vasiliki",
+    "greek_punctuation_v1_pn_014_llm_parler_tts_el_det_vasiliki",
+    "morphological_complexity_v1_el_morph_018_llm_parler_tts_el_det_vasiliki",
+    "morphological_complexity_v1_el_morph_025_llm_parler_tts_el_det_vasiliki",
+    "greek_codeswitch_v1_cs_015_llm_parler_tts_el_llm_michalis",
+    "greek_punctuation_v1_pn_014_llm_parler_tts_el_llm_michalis",
+    "morphological_complexity_v1_el_morph_018_llm_parler_tts_el_llm_michalis",
+    "morphological_complexity_v1_el_morph_025_llm_parler_tts_el_llm_michalis",
+    "greek_codeswitch_v1_cs_015_llm_parler_tts_el_llm_vasiliki",
+    "greek_punctuation_v1_pn_014_llm_parler_tts_el_llm_vasiliki",
+    "morphological_complexity_v1_el_morph_018_llm_parler_tts_el_llm_vasiliki",
+    "morphological_complexity_v1_el_morph_025_llm_parler_tts_el_llm_vasiliki",
+    "greek_codeswitch_v1_cs_015_llm_vits_el_4gpu",
+    "greek_punctuation_v1_pn_014_llm_vits_el_4gpu",
+    "morphological_complexity_v1_el_morph_018_llm_vits_el_4gpu",
+    "morphological_complexity_v1_el_morph_025_llm_vits_el_4gpu",
+    "greek_codeswitch_v1_cs_015_llm_vits_hf_single_female",
+    "greek_punctuation_v1_pn_014_llm_vits_hf_single_female",
+    "morphological_complexity_v1_el_morph_018_llm_vits_hf_single_female",
+    "morphological_complexity_v1_el_morph_025_llm_vits_hf_single_female",
+    "greek_codeswitch_v1_cs_015_llm_vits_hf_single_male",
+    "greek_punctuation_v1_pn_014_llm_vits_hf_single_male",
+    "morphological_complexity_v1_el_morph_018_llm_vits_hf_single_male",
+    "morphological_complexity_v1_el_morph_025_llm_vits_hf_single_male"
+  ],
+  "limitations": [
+    "Audio/checkpoints not included.",
+    "Source-text URLs are historical; revision IDs and copied/adapted status were not recorded per sentence.",
+    "Generic VITS speaker-0 metadata was replaced with saved per-clip assignment.",
+    "Held-out transcription jobs are derived, not an archived executed manifest.",
+    "Historical model/environment revisions and some generation settings remain unknown."
+  ],
+  "normalization_warnings": [
+    {
+      "method": "llm",
+      "sentence_id": "cs_027",
+      "warnings": [
+        "output too long (ratio 10.22)",
+        "output has unexpected extra lines"
+      ]
+    },
+    {
+      "method": "llm",
+      "sentence_id": "pn_009",
+      "warnings": [
+        "output too long (ratio 7.66)"
+      ]
+    },
+    {
+      "method": "llm",
+      "sentence_id": "pn_016",
+      "warnings": [
+        "output too long (ratio 6.86)",
+        "output has unexpected extra lines"
+      ]
+    },
+    {
+      "method": "llm",
+      "sentence_id": "pn_031",
+      "warnings": [
+        "output too long (ratio 15.86)",
+        "output has unexpected extra lines"
+      ]
+    },
+    {
+      "method": "llm",
+      "sentence_id": "pn_036",
+      "warnings": [
+        "output too long (ratio 17.60)",
+        "output has unexpected extra lines"
+      ]
+    },
+    {
+      "method": "llm",
+      "sentence_id": "pn_044",
+      "warnings": [
+        "output too long (ratio 6.55)",
+        "output has unexpected extra lines"
+      ]
+    },
+    {
+      "method": "llm",
+      "sentence_id": "el_morph_001",
+      "warnings": [
+        "output too long (ratio 6.59)"
+      ]
+    },
+    {
+      "method": "llm",
+      "sentence_id": "el_morph_006",
+      "warnings": [
+        "possible refusal/meta text: 'δεν μπορώ'"
+      ]
+    },
+    {
+      "method": "llm",
+      "sentence_id": "el_morph_008",
+      "warnings": [
+        "output too long (ratio 6.87)",
+        "output has unexpected extra lines"
+      ]
+    }
+  ],
+  "original_word_count_differences": [
+    {
+      "recorded": 20,
+      "rough": 18,
+      "sentence_id": "normal_002"
+    },
+    {
+      "recorded": 17,
+      "rough": 15,
+      "sentence_id": "normal_004"
+    },
+    {
+      "recorded": 14,
+      "rough": 13,
+      "sentence_id": "normal_006"
+    },
+    {
+      "recorded": 18,
+      "rough": 16,
+      "sentence_id": "normal_016"
+    },
+    {
+      "recorded": 17,
+      "rough": 16,
+      "sentence_id": "normal_020"
+    },
+    {
+      "recorded": 22,
+      "rough": 19,
+      "sentence_id": "normal_029"
+    },
+    {
+      "recorded": 16,
+      "rough": 14,
+      "sentence_id": "normal_030"
+    },
+    {
+      "recorded": 22,
+      "rough": 18,
+      "sentence_id": "normal_031"
+    },
+    {
+      "recorded": 22,
+      "rough": 17,
+      "sentence_id": "normal_033"
+    },
+    {
+      "recorded": 19,
+      "rough": 17,
+      "sentence_id": "normal_035"
+    },
+    {
+      "recorded": 22,
+      "rough": 17,
+      "sentence_id": "normal_036"
+    },
+    {
+      "recorded": 22,
+      "rough": 17,
+      "sentence_id": "normal_037"
+    },
+    {
+      "recorded": 15,
+      "rough": 14,
+      "sentence_id": "normal_041"
+    },
+    {
+      "recorded": 23,
+      "rough": 19,
+      "sentence_id": "normal_042"
+    },
+    {
+      "recorded": 19,
+      "rough": 16,
+      "sentence_id": "normal_046"
+    },
+    {
+      "recorded": 21,
+      "rough": 17,
+      "sentence_id": "normal_048"
+    },
+    {
+      "recorded": 19,
+      "rough": 16,
+      "sentence_id": "normal_050"
+    },
+    {
+      "recorded": 21,
+      "rough": 18,
+      "sentence_id": "normal_051"
+    },
+    {
+      "recorded": 22,
+      "rough": 18,
+      "sentence_id": "normal_052"
+    },
+    {
+      "recorded": 22,
+      "rough": 17,
+      "sentence_id": "normal_055"
+    },
+    {
+      "recorded": 15,
+      "rough": 13,
+      "sentence_id": "num_001"
+    },
+    {
+      "recorded": 11,
+      "rough": 9,
+      "sentence_id": "num_002"
+    },
+    {
+      "recorded": 11,
+      "rough": 10,
+      "sentence_id": "num_004"
+    },
+    {
+      "recorded": 16,
+      "rough": 14,
+      "sentence_id": "num_005"
+    },
+    {
+      "recorded": 16,
+      "rough": 14,
+      "sentence_id": "num_008"
+    },
+    {
+      "recorded": 14,
+      "rough": 13,
+      "sentence_id": "num_014"
+    },
+    {
+      "recorded": 17,
+      "rough": 15,
+      "sentence_id": "num_019"
+    },
+    {
+      "recorded": 12,
+      "rough": 11,
+      "sentence_id": "num_022"
+    },
+    {
+      "recorded": 14,
+      "rough": 13,
+      "sentence_id": "num_027"
+    },
+    {
+      "recorded": 21,
+      "rough": 17,
+      "sentence_id": "num_028"
+    },
+    {
+      "recorded": 19,
+      "rough": 15,
+      "sentence_id": "num_030"
+    },
+    {
+      "recorded": 16,
+      "rough": 14,
+      "sentence_id": "num_036"
+    },
+    {
+      "recorded": 17,
+      "rough": 15,
+      "sentence_id": "num_038"
+    },
+    {
+      "recorded": 16,
+      "rough": 14,
+      "sentence_id": "num_041"
+    },
+    {
+      "recorded": 17,
+      "rough": 14,
+      "sentence_id": "num_046"
+    },
+    {
+      "recorded": 14,
+      "rough": 11,
+      "sentence_id": "num_047"
+    },
+    {
+      "recorded": 14,
+      "rough": 13,
+      "sentence_id": "num_049"
+    },
+    {
+      "recorded": 13,
+      "rough": 12,
+      "sentence_id": "num_052"
+    },
+    {
+      "recorded": 20,
+      "rough": 18,
+      "sentence_id": "num_059"
+    },
+    {
+      "recorded": 16,
+      "rough": 15,
+      "sentence_id": "num_060"
+    },
+    {
+      "recorded": 17,
+      "rough": 16,
+      "sentence_id": "acro_002"
+    },
+    {
+      "recorded": 16,
+      "rough": 15,
+      "sentence_id": "acro_005"
+    },
+    {
+      "recorded": 18,
+      "rough": 15,
+      "sentence_id": "acro_010"
+    },
+    {
+      "recorded": 15,
+      "rough": 14,
+      "sentence_id": "acro_011"
+    },
+    {
+      "recorded": 16,
+      "rough": 14,
+      "sentence_id": "acro_012"
+    },
+    {
+      "recorded": 18,
+      "rough": 17,
+      "sentence_id": "acro_015"
+    },
+    {
+      "recorded": 14,
+      "rough": 12,
+      "sentence_id": "acro_017"
+    },
+    {
+      "recorded": 18,
+      "rough": 15,
+      "sentence_id": "acro_022"
+    },
+    {
+      "recorded": 19,
+      "rough": 15,
+      "sentence_id": "acro_026"
+    },
+    {
+      "recorded": 17,
+      "rough": 15,
+      "sentence_id": "acro_028"
+    },
+    {
+      "recorded": 20,
+      "rough": 16,
+      "sentence_id": "acro_030"
+    },
+    {
+      "recorded": 17,
+      "rough": 15,
+      "sentence_id": "acro_033"
+    },
+    {
+      "recorded": 14,
+      "rough": 13,
+      "sentence_id": "acro_039"
+    },
+    {
+      "recorded": 17,
+      "rough": 16,
+      "sentence_id": "acro_040"
+    },
+    {
+      "recorded": 14,
+      "rough": 13,
+      "sentence_id": "acro_042"
+    },
+    {
+      "recorded": 20,
+      "rough": 17,
+      "sentence_id": "acro_046"
+    },
+    {
+      "recorded": 17,
+      "rough": 15,
+      "sentence_id": "acro_052"
+    },
+    {
+      "recorded": 24,
+      "rough": 18,
+      "sentence_id": "acro_053"
+    },
+    {
+      "recorded": 19,
+      "rough": 16,
+      "sentence_id": "acro_055"
+    },
+    {
+      "recorded": 22,
+      "rough": 21,
+      "sentence_id": "acro_060"
+    },
+    {
+      "recorded": 7,
+      "rough": 8,
+      "sentence_id": "cs_008"
+    },
+    {
+      "recorded": 12,
+      "rough": 11,
+      "sentence_id": "cs_011"
+    },
+    {
+      "recorded": 11,
+      "rough": 10,
+      "sentence_id": "cs_016"
+    },
+    {
+      "recorded": 10,
+      "rough": 9,
+      "sentence_id": "cs_027"
+    },
+    {
+      "recorded": 11,
+      "rough": 10,
+      "sentence_id": "cs_034"
+    },
+    {
+      "recorded": 10,
+      "rough": 9,
+      "sentence_id": "cs_035"
+    },
+    {
+      "recorded": 11,
+      "rough": 10,
+      "sentence_id": "cs_036"
+    },
+    {
+      "recorded": 11,
+      "rough": 9,
+      "sentence_id": "cs_040"
+    },
+    {
+      "recorded": 12,
+      "rough": 11,
+      "sentence_id": "cs_047"
+    },
+    {
+      "recorded": 12,
+      "rough": 10,
+      "sentence_id": "pn_001"
+    },
+    {
+      "recorded": 14,
+      "rough": 11,
+      "sentence_id": "pn_002"
+    },
+    {
+      "recorded": 13,
+      "rough": 11,
+      "sentence_id": "pn_003"
+    },
+    {
+      "recorded": 15,
+      "rough": 13,
+      "sentence_id": "pn_007"
+    },
+    {
+      "recorded": 17,
+      "rough": 15,
+      "sentence_id": "pn_008"
+    },
+    {
+      "recorded": 7,
+      "rough": 6,
+      "sentence_id": "pn_009"
+    },
+    {
+      "recorded": 18,
+      "rough": 14,
+      "sentence_id": "pn_010"
+    },
+    {
+      "recorded": 17,
+      "rough": 14,
+      "sentence_id": "pn_014"
+    },
+    {
+      "recorded": 14,
+      "rough": 12,
+      "sentence_id": "pn_016"
+    },
+    {
+      "recorded": 16,
+      "rough": 13,
+      "sentence_id": "pn_019"
+    },
+    {
+      "recorded": 13,
+      "rough": 12,
+      "sentence_id": "pn_023"
+    },
+    {
+      "recorded": 14,
+      "rough": 11,
+      "sentence_id": "pn_024"
+    },
+    {
+      "recorded": 12,
+      "rough": 10,
+      "sentence_id": "pn_027"
+    },
+    {
+      "recorded": 10,
+      "rough": 9,
+      "sentence_id": "pn_029"
+    },
+    {
+      "recorded": 9,
+      "rough": 8,
+      "sentence_id": "pn_031"
+    },
+    {
+      "recorded": 12,
+      "rough": 10,
+      "sentence_id": "pn_032"
+    },
+    {
+      "recorded": 10,
+      "rough": 9,
+      "sentence_id": "pn_036"
+    },
+    {
+      "recorded": 10,
+      "rough": 11,
+      "sentence_id": "pn_041"
+    },
+    {
+      "recorded": 10,
+      "rough": 12,
+      "sentence_id": "pn_044"
+    },
+    {
+      "recorded": 8,
+      "rough": 7,
+      "sentence_id": "ab_001"
+    },
+    {
+      "recorded": 13,
+      "rough": 12,
+      "sentence_id": "ab_003"
+    },
+    {
+      "recorded": 14,
+      "rough": 12,
+      "sentence_id": "ab_008"
+    },
+    {
+      "recorded": 14,
+      "rough": 13,
+      "sentence_id": "ab_009"
+    },
+    {
+      "recorded": 18,
+      "rough": 15,
+      "sentence_id": "ab_012"
+    },
+    {
+      "recorded": 16,
+      "rough": 14,
+      "sentence_id": "ab_013"
+    },
+    {
+      "recorded": 13,
+      "rough": 11,
+      "sentence_id": "ab_014"
+    },
+    {
+      "recorded": 14,
+      "rough": 13,
+      "sentence_id": "ab_015"
+    },
+    {
+      "recorded": 12,
+      "rough": 11,
+      "sentence_id": "ab_021"
+    },
+    {
+      "recorded": 14,
+      "rough": 11,
+      "sentence_id": "ab_022"
+    },
+    {
+      "recorded": 13,
+      "rough": 12,
+      "sentence_id": "ab_025"
+    },
+    {
+      "recorded": 15,
+      "rough": 13,
+      "sentence_id": "ab_028"
+    },
+    {
+      "recorded": 15,
+      "rough": 13,
+      "sentence_id": "ab_029"
+    },
+    {
+      "recorded": 13,
+      "rough": 11,
+      "sentence_id": "ab_030"
+    },
+    {
+      "recorded": 11,
+      "rough": 9,
+      "sentence_id": "ab_040"
+    },
+    {
+      "recorded": 12,
+      "rough": 11,
+      "sentence_id": "ab_041"
+    },
+    {
+      "recorded": 13,
+      "rough": 11,
+      "sentence_id": "ab_042"
+    },
+    {
+      "recorded": 13,
+      "rough": 12,
+      "sentence_id": "ab_049"
+    },
+    {
+      "recorded": 13,
+      "rough": 12,
+      "sentence_id": "el_morph_006"
+    },
+    {
+      "recorded": 14,
+      "rough": 13,
+      "sentence_id": "el_morph_007"
+    },
+    {
+      "recorded": 11,
+      "rough": 10,
+      "sentence_id": "el_morph_011"
+    },
+    {
+      "recorded": 13,
+      "rough": 11,
+      "sentence_id": "el_morph_012"
+    },
+    {
+      "recorded": 11,
+      "rough": 10,
+      "sentence_id": "el_morph_014"
+    },
+    {
+      "recorded": 12,
+      "rough": 11,
+      "sentence_id": "el_morph_015"
+    },
+    {
+      "recorded": 17,
+      "rough": 13,
+      "sentence_id": "el_morph_018"
+    },
+    {
+      "recorded": 16,
+      "rough": 13,
+      "sentence_id": "el_morph_020"
+    },
+    {
+      "recorded": 17,
+      "rough": 14,
+      "sentence_id": "el_morph_021"
+    },
+    {
+      "recorded": 17,
+      "rough": 15,
+      "sentence_id": "el_morph_025"
+    },
+    {
+      "recorded": 13,
+      "rough": 12,
+      "sentence_id": "el_morph_029"
+    },
+    {
+      "recorded": 14,
+      "rough": 12,
+      "sentence_id": "el_morph_031"
+    },
+    {
+      "recorded": 16,
+      "rough": 14,
+      "sentence_id": "el_morph_033"
+    },
+    {
+      "recorded": 16,
+      "rough": 14,
+      "sentence_id": "el_morph_035"
+    },
+    {
+      "recorded": 15,
+      "rough": 14,
+      "sentence_id": "el_morph_036"
+    },
+    {
+      "recorded": 14,
+      "rough": 12,
+      "sentence_id": "el_morph_037"
+    },
+    {
+      "recorded": 17,
+      "rough": 15,
+      "sentence_id": "el_morph_040"
+    }
+  ],
+  "scope": "input export only; not paper-result reproduction"
+}

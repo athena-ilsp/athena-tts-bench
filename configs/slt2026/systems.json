@@ -1,0 +1,292 @@
+{
+  "systems": [
+    {
+      "core_clips": 420,
+      "display_name": "Chatterbox Multilingual (base, female ref)",
+      "enabled": true,
+      "family": "chatterbox",
+      "generation": {
+        "cfg_weight": 0.3,
+        "evidence_status": "recorded system metadata; external inference environment pending",
+        "exaggeration": 0.7,
+        "language_id": "el",
+        "status": "historical settings incomplete; exact resynthesis not claimed"
+      },
+      "heldout_clips": 40,
+      "id": "chatterbox_el_base_female",
+      "language": "el",
+      "model_asset_id": "chatterbox_base",
+      "model_ref": "asset:slt2026/chatterbox_base",
+      "paper_label": "cb_base_F",
+      "sample_rate_hz": 24000,
+      "voice": "artifacts/speaker_refs/shared_female.wav"
+    },
+    {
+      "core_clips": 420,
+      "display_name": "Chatterbox Multilingual (base, male ref)",
+      "enabled": true,
+      "family": "chatterbox",
+      "generation": {
+        "cfg_weight": 0.3,
+        "evidence_status": "recorded system metadata; external inference environment pending",
+        "exaggeration": 0.7,
+        "language_id": "el",
+        "status": "historical settings incomplete; exact resynthesis not claimed"
+      },
+      "heldout_clips": 40,
+      "id": "chatterbox_el_base_male",
+      "language": "el",
+      "model_asset_id": "chatterbox_base",
+      "model_ref": "asset:slt2026/chatterbox_base",
+      "paper_label": "cb_base_M",
+      "sample_rate_hz": 24000,
+      "voice": "artifacts/speaker_refs/shared_male.wav"
+    },
+    {
+      "core_clips": 420,
+      "display_name": "Chatterbox Greek (Plan-A LoRA 3ep, female ref)",
+      "enabled": true,
+      "family": "chatterbox",
+      "generation": {
+        "cfg_weight": 0.3,
+        "evidence_status": "recorded system metadata; external inference environment pending",
+        "exaggeration": 0.7,
+        "language_id": "el",
+        "status": "historical settings incomplete; exact resynthesis not claimed"
+      },
+      "heldout_clips": 40,
+      "id": "chatterbox_el_lora3_female",
+      "language": "el",
+      "model_asset_id": "chatterbox_lora3",
+      "model_ref": "asset:slt2026/chatterbox_lora3",
+      "paper_label": "cb_lora_F",
+      "sample_rate_hz": 24000,
+      "voice": "artifacts/speaker_refs/shared_female.wav"
+    },
+    {
+      "core_clips": 420,
+      "display_name": "Chatterbox Greek (Plan-A LoRA 3ep, male ref)",
+      "enabled": true,
+      "family": "chatterbox",
+      "generation": {
+        "cfg_weight": 0.3,
+        "evidence_status": "recorded system metadata; external inference environment pending",
+        "exaggeration": 0.7,
+        "language_id": "el",
+        "status": "historical settings incomplete; exact resynthesis not claimed"
+      },
+      "heldout_clips": 40,
+      "id": "chatterbox_el_lora3_male",
+      "language": "el",
+      "model_asset_id": "chatterbox_lora3",
+      "model_ref": "asset:slt2026/chatterbox_lora3",
+      "paper_label": "cb_lora_M",
+      "sample_rate_hz": 24000,
+      "voice": "artifacts/speaker_refs/shared_male.wav"
+    },
+    {
+      "core_clips": 420,
+      "display_name": "Parler-TTS Greek (Colab LoRA, male)",
+      "enabled": true,
+      "family": "parler_tts",
+      "generation": {
+        "decoding": "inherits checkpoint generation_config; no decoding overrides in driver",
+        "evidence": [
+          "scripts/synth_colab_parler.py"
+        ],
+        "seed": null,
+        "status": "historical settings incomplete; exact resynthesis not claimed"
+      },
+      "heldout_clips": 80,
+      "id": "greek_male_lora_colab",
+      "language": "el",
+      "model_asset_id": "parler_colab",
+      "model_ref": "asset:slt2026/parler_colab",
+      "paper_label": "par_greek_male",
+      "sample_rate_hz": 44100,
+      "voice": "male, very close-sounding, very clear, very monotone, slightly fast, slightly low-pitch"
+    },
+    {
+      "core_clips": 420,
+      "display_name": "Parler-TTS Greek (det captions, Michalis/M)",
+      "enabled": true,
+      "family": "parler_tts",
+      "generation": {
+        "cache_implementation": null,
+        "do_sample": true,
+        "evidence": [
+          "scripts/synth_parler.py",
+          "leonardo/slurm/core_synth/synth_parler.slurm",
+          "leonardo/slurm/user_synth/synth_parler.slurm"
+        ],
+        "inherited_generation_config": "not archived in this export",
+        "max_length": "external config value; driver fallback 2580",
+        "min_new_tokens": "decoder.num_codebooks + 1",
+        "seed": 1234,
+        "seed_provenance": "driver default; saved wrappers do not override",
+        "status": "historical settings incomplete; exact resynthesis not claimed",
+        "temperature": 1.0
+      },
+      "heldout_clips": 40,
+      "id": "parler_tts_el_det_michalis",
+      "language": "el",
+      "model_asset_id": "parler_det",
+      "model_ref": "asset:slt2026/parler_det",
+      "paper_label": "par_det_M",
+      "sample_rate_hz": 44100,
+      "voice": "speaker: Michalis, very close-sounding, almost no noise, monotone, moderate speed, slightly low-pitch"
+    },
+    {
+      "core_clips": 420,
+      "display_name": "Parler-TTS Greek (det captions, Vasiliki/F)",
+      "enabled": true,
+      "family": "parler_tts",
+      "generation": {
+        "cache_implementation": null,
+        "do_sample": true,
+        "evidence": [
+          "scripts/synth_parler.py",
+          "leonardo/slurm/core_synth/synth_parler.slurm",
+          "leonardo/slurm/user_synth/synth_parler.slurm"
+        ],
+        "inherited_generation_config": "not archived in this export",
+        "max_length": "external config value; driver fallback 2580",
+        "min_new_tokens": "decoder.num_codebooks + 1",
+        "seed": 1234,
+        "seed_provenance": "driver default; saved wrappers do not override",
+        "status": "historical settings incomplete; exact resynthesis not claimed",
+        "temperature": 1.0
+      },
+      "heldout_clips": 40,
+      "id": "parler_tts_el_det_vasiliki",
+      "language": "el",
+      "model_asset_id": "parler_det",
+      "model_ref": "asset:slt2026/parler_det",
+      "paper_label": "par_det_F",
+      "sample_rate_hz": 44100,
+      "voice": "speaker: Vasiliki, very close-sounding, very clear, monotone, slightly slowly, slightly low-pitch"
+    },
+    {
+      "core_clips": 420,
+      "display_name": "Parler-TTS Greek (llm captions, Michalis/M)",
+      "enabled": true,
+      "family": "parler_tts",
+      "generation": {
+        "cache_implementation": null,
+        "do_sample": true,
+        "evidence": [
+          "scripts/synth_parler.py",
+          "leonardo/slurm/core_synth/synth_parler.slurm",
+          "leonardo/slurm/user_synth/synth_parler.slurm"
+        ],
+        "inherited_generation_config": "not archived in this export",
+        "max_length": "external config value; driver fallback 2580",
+        "min_new_tokens": "decoder.num_codebooks + 1",
+        "seed": 1234,
+        "seed_provenance": "driver default; saved wrappers do not override",
+        "status": "historical settings incomplete; exact resynthesis not claimed",
+        "temperature": 1.0
+      },
+      "heldout_clips": 40,
+      "id": "parler_tts_el_llm_michalis",
+      "language": "el",
+      "model_asset_id": "parler_llm",
+      "model_ref": "asset:slt2026/parler_llm",
+      "paper_label": "par_llm_M",
+      "sample_rate_hz": 44100,
+      "voice": "Michalis speaks in a monotone voice with almost no background noise, in a very close-sounding environment at a moderate speed."
+    },
+    {
+      "core_clips": 420,
+      "display_name": "Parler-TTS Greek (llm captions, Vasiliki/F)",
+      "enabled": true,
+      "family": "parler_tts",
+      "generation": {
+        "cache_implementation": null,
+        "do_sample": true,
+        "evidence": [
+          "scripts/synth_parler.py",
+          "leonardo/slurm/core_synth/synth_parler.slurm",
+          "leonardo/slurm/user_synth/synth_parler.slurm"
+        ],
+        "inherited_generation_config": "not archived in this export",
+        "max_length": "external config value; driver fallback 2580",
+        "min_new_tokens": "decoder.num_codebooks + 1",
+        "seed": 1234,
+        "seed_provenance": "driver default; saved wrappers do not override",
+        "status": "historical settings incomplete; exact resynthesis not claimed",
+        "temperature": 1.0
+      },
+      "heldout_clips": 40,
+      "id": "parler_tts_el_llm_vasiliki",
+      "language": "el",
+      "model_asset_id": "parler_llm",
+      "model_ref": "asset:slt2026/parler_llm",
+      "paper_label": "par_llm_F",
+      "sample_rate_hz": 44100,
+      "voice": "Vasiliki speaks in a slightly slow monotone in a very quiet room with very little echo."
+    },
+    {
+      "core_clips": 420,
+      "display_name": "VITS Greek (4-GPU from-scratch)",
+      "enabled": true,
+      "family": "vits",
+      "generation": {
+        "status": "historical settings incomplete; exact resynthesis not claimed"
+      },
+      "heldout_clips": 80,
+      "id": "vits_el_4gpu",
+      "language": "el",
+      "model_asset_id": "vits_4gpu",
+      "model_ref": "asset:slt2026/vits_4gpu",
+      "paper_label": "vits_F / vits_M",
+      "sample_rate_hz": 22050,
+      "speaker_assignment": {
+        "core": {
+          "0": 210,
+          "1": 210
+        },
+        "heldout": {
+          "0": 40,
+          "1": 40
+        },
+        "source": "frozen handoff maps; never regenerate from generic metadata"
+      },
+      "voice": "Per-row speaker: 0=female, 1=male"
+    },
+    {
+      "core_clips": 420,
+      "display_name": "MMS-TTS Greek (single-speaker female fine-tune)",
+      "enabled": true,
+      "family": "vits_hf",
+      "generation": {
+        "status": "historical settings incomplete; exact resynthesis not claimed"
+      },
+      "heldout_clips": 40,
+      "id": "vits_hf_single_female",
+      "language": "el",
+      "model_asset_id": "mms_female",
+      "model_ref": "asset:slt2026/mms_female",
+      "paper_label": "mms_F",
+      "sample_rate_hz": 16000,
+      "voice": "single-speaker female (MMS-TTS ell fine-tune)"
+    },
+    {
+      "core_clips": 420,
+      "display_name": "MMS-TTS Greek (single-speaker male fine-tune)",
+      "enabled": true,
+      "family": "vits_hf",
+      "generation": {
+        "status": "historical settings incomplete; exact resynthesis not claimed"
+      },
+      "heldout_clips": 40,
+      "id": "vits_hf_single_male",
+      "language": "el",
+      "model_asset_id": "mms_male",
+      "model_ref": "asset:slt2026/mms_male",
+      "paper_label": "mms_M",
+      "sample_rate_hz": 16000,
+      "voice": "single-speaker male (MMS-TTS ell fine-tune)"
+    }
+  ]
+}

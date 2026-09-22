@@ -1,0 +1,296 @@
+{
+  "files": {
+    "artifacts/preprocessed/llm/dataset_01_normal_text.json": {
+      "bytes": 64103,
+      "sha256": "8c12e12b0d49c2f7b8a9409c7ee16b5668b3980bf92378e821cc1f245d02711b"
+    },
+    "artifacts/preprocessed/llm/dataset_02_numbers_dates.json": {
+      "bytes": 57937,
+      "sha256": "ac5a689d1ee971f2ba4de60281c3c5c915a45e82898a98b475f21962977e2dab"
+    },
+    "artifacts/preprocessed/llm/dataset_03_acronyms.json": {
+      "bytes": 60512,
+      "sha256": "2eb0114290524702b100c6d603ed83ebc755e4e29a9f06ac38adcb5adf72f23e"
+    },
+    "artifacts/preprocessed/llm/dataset_04_codeswitching.json": {
+      "bytes": 33362,
+      "sha256": "83c4b646d49301370c3e7e860cc8f94e258068a2f84fc051c1f13f6d599450a7"
+    },
+    "artifacts/preprocessed/llm/dataset_05_punctuation.json": {
+      "bytes": 41631,
+      "sha256": "1d84c233c9182f2a648f7f8c9beffd7f214a78953bf66f67ef22ad9421720b2c"
+    },
+    "artifacts/preprocessed/llm/dataset_07_abbreviations.json": {
+      "bytes": 39793,
+      "sha256": "fb9435f8666f8866972725c1883cefd360ef692394445b7928da4f2371f95600"
+    },
+    "artifacts/preprocessed/llm/dataset_12_morphological.json": {
+      "bytes": 30855,
+      "sha256": "66acd8370e8a0f843460fa99a3b77d658db26a13f8febc869db616b5cf970fba"
+    },
+    "artifacts/preprocessed/raw/dataset_01_normal_text.json": {
+      "bytes": 63860,
+      "sha256": "80f55b3f626c52d8925a899f3e5b5637eb68830eb20cc7acb8bd7f9da66bcb6a"
+    },
+    "artifacts/preprocessed/raw/dataset_02_numbers_dates.json": {
+      "bytes": 53867,
+      "sha256": "cdbcf2bd2e0d0993b06c0e6107be5f7adda751a2d361898bd0f39581b33d1e47"
+    },
+    "artifacts/preprocessed/raw/dataset_03_acronyms.json": {
+      "bytes": 55276,
+      "sha256": "912212b30a0ab8038a1187841d2978f00dd30e8a04bba0d4b2b8dc90f6bca879"
+    },
+    "artifacts/preprocessed/raw/dataset_04_codeswitching.json": {
+      "bytes": 31013,
+      "sha256": "1efe8d1f3b84370b1c8613a0a583eb2fcd96876d85e158023f71bfc7fbdd14f4"
+    },
+    "artifacts/preprocessed/raw/dataset_05_punctuation.json": {
+      "bytes": 38171,
+      "sha256": "b5a0964da89dcd4e39d243089828a935cda01b392dac109ec2dc949bcf3540a3"
+    },
+    "artifacts/preprocessed/raw/dataset_07_abbreviations.json": {
+      "bytes": 37739,
+      "sha256": "2e5c54fda37b93393e70671951bf78f78a32c08b1b3513a78a87bef5493be14e"
+    },
+    "artifacts/preprocessed/raw/dataset_12_morphological.json": {
+      "bytes": 29446,
+      "sha256": "dc945e3ddf4b14e23ecc131bf4c08a6205450622b0d92ed3849e6466167a51c5"
+    },
+    "artifacts/preprocessed/regex/dataset_01_normal_text.json": {
+      "bytes": 63874,
+      "sha256": "9b431caa65bbd0aa9b9157b05931ad51c410e3472a9ca34e6d4325e84eb44091"
+    },
+    "artifacts/preprocessed/regex/dataset_02_numbers_dates.json": {
+      "bytes": 57170,
+      "sha256": "673fb9d7842952100dadfa70f85e711f09937926bdd4387ae757cbb80a62e74c"
+    },
+    "artifacts/preprocessed/regex/dataset_03_acronyms.json": {
+      "bytes": 61722,
+      "sha256": "18aaa8174402043d9ceb0fb538d2e09e524372bf561b20a4b54b1f2043ff5d1f"
+    },
+    "artifacts/preprocessed/regex/dataset_04_codeswitching.json": {
+      "bytes": 31129,
+      "sha256": "d06144bcd44f8267959639697cfe4567b859f1d4374e50c59091b678a12ca397"
+    },
+    "artifacts/preprocessed/regex/dataset_05_punctuation.json": {
+      "bytes": 38658,
+      "sha256": "59d8e644b9a3c231e1bfd6ae0230aaf6400a89ff1c9a8ae1acb23ac116fc2313"
+    },
+    "artifacts/preprocessed/regex/dataset_07_abbreviations.json": {
+      "bytes": 39848,
+      "sha256": "966a33022b05b0cc6e7facb550bdc3e049204175bf968ee15341f2bca59dff3f"
+    },
+    "artifacts/preprocessed/regex/dataset_12_morphological.json": {
+      "bytes": 29460,
+      "sha256": "64d53306b3eac8cf187ef2f69c6dbc3d6a63c635d5aad2b3e06f6b1f0c57deea"
+    },
+    "configs/asr_whisperx_noalign.json": {
+      "bytes": 779,
+      "sha256": "abe84f972727009adb464c1abfbf2ba6f0ee04188f569d48ded1dd206a606b70"
+    },
+    "configs/experiment.json": {
+      "bytes": 1953,
+      "sha256": "57954c44c95ea7912f850cd44c764c98f3a0f69d8b1a63675cad6cf352402ba8"
+    },
+    "configs/llm_normalizer.json": {
+      "bytes": 1415,
+      "sha256": "7878093f600529f4e86b92271a9593b39087622893a98526e07c4474bc78d6bf"
+    },
+    "configs/tts_systems_core13.json": {
+      "bytes": 9864,
+      "sha256": "c11a861f2290badcdd7f966150a67ce81fe0996edf417a2e304eba2de2b28b38"
+    },
+    "datasets/dataset_01_normal_text.json": {
+      "bytes": 34534,
+      "sha256": "8a8d319a74a5068a123f63fc4ddeb2dbb47046da1c06120eb4f1b81346fa7a93"
+    },
+    "datasets/dataset_02_numbers_dates.json": {
+      "bytes": 31015,
+      "sha256": "60caa9a6a50bef909fc2f418082702aa01fa160eaf76e30e242bac3b67a62c3a"
+    },
+    "datasets/dataset_03_acronyms.json": {
+      "bytes": 30946,
+      "sha256": "efe29973ae3fce242e0a76040a4ef2a71862f180da296e973a8b982ace228077"
+    },
+    "datasets/dataset_04_codeswitching.json": {
+      "bytes": 19277,
+      "sha256": "0e95bc45ca64b53c3524a1c8db4cff62ae12e0519838679c3a0f4cb3333e1ee7"
+    },
+    "datasets/dataset_05_punctuation.json": {
+      "bytes": 21669,
+      "sha256": "093059f5a0b9ecd19cd384bf4fc48e2d07214f6177d81f98f84ea7a515f454c5"
+    },
+    "datasets/dataset_07_abbreviations.json": {
+      "bytes": 21515,
+      "sha256": "aab0530cf348306520cb6cd83c780d4a0580848efd1679a0af20d336ac9788c7"
+    },
+    "datasets/dataset_12_morphological.json": {
+      "bytes": 15116,
+      "sha256": "b5a9c94824d3593fb1f4b6806527f59dee8da111cebd058649e9b8ca5188564f"
+    },
+    "leonardo/slurm/core_synth/synth_parler.slurm": {
+      "bytes": 1713,
+      "sha256": "cfbab84228eeaa475c1dbfff5079132511160645946272a55cf6b08cafd719ef"
+    },
+    "leonardo/slurm/user_synth/synth_parler.slurm": {
+      "bytes": 2054,
+      "sha256": "9e4d833260238b66a595b90b0389634b7dc69526f231547005592a6f372b969c"
+    },
+    "manifests/core_handoff/chatterbox_el_base_female_audio_map.jsonl": {
+      "bytes": 249656,
+      "sha256": "b1002db7238a5e32771ef53c4266de2400a5d1a2653da32e242503ab5b365030"
+    },
+    "manifests/core_handoff/chatterbox_el_base_male_audio_map.jsonl": {
+      "bytes": 247136,
+      "sha256": "9ccca0ac78691af1157956dcd080a76ed056f2f77db5fbd2da5237286070b5d2"
+    },
+    "manifests/core_handoff/chatterbox_el_lora3_female_audio_map.jsonl": {
+      "bytes": 265196,
+      "sha256": "660de275e6728b2776d4934142bc75e09f5515445979d3cb5031251b08e6aebf"
+    },
+    "manifests/core_handoff/chatterbox_el_lora3_male_audio_map.jsonl": {
+      "bytes": 262676,
+      "sha256": "859489633eae01bb37ce15cd1f0de796fbbf4a5f49e57f33f339492b369cef34"
+    },
+    "manifests/core_handoff/greek_male_lora_colab_audio_map.jsonl": {
+      "bytes": 267716,
+      "sha256": "f7487c34bfe1efa59c3f3075d6e9ec6f93021335892de85e78ceeb86d96cfe65"
+    },
+    "manifests/core_handoff/parler_tts_el_det_michalis_audio_map.jsonl": {
+      "bytes": 287036,
+      "sha256": "596e613a26aaa6060fac3ab7f1e221dd98853f2046caa910103a520bbf8068eb"
+    },
+    "manifests/core_handoff/parler_tts_el_det_vasiliki_audio_map.jsonl": {
+      "bytes": 285356,
+      "sha256": "4782c15d28be9214d2c6db7c07a3943a3d96b85219590a6d4e1e026c874a6256"
+    },
+    "manifests/core_handoff/parler_tts_el_llm_michalis_audio_map.jsonl": {
+      "bytes": 297536,
+      "sha256": "a8d7b472e18cfa395cc456f8c4b9c309596b81418a3b396b120d8b134803ac0d"
+    },
+    "manifests/core_handoff/parler_tts_el_llm_vasiliki_audio_map.jsonl": {
+      "bytes": 281156,
+      "sha256": "3ff76da2705983d3a3081262d0449bd10e2d7c977be0b5751a4ac602acb3e009"
+    },
+    "manifests/core_handoff/vits_el_4gpu_audio_map.jsonl": {
+      "bytes": 250496,
+      "sha256": "ea4892ead8fa87d997abd928d1998fc883a1ac18e06d9b884edb435a809eb9a6"
+    },
+    "manifests/core_handoff/vits_hf_single_female_audio_map.jsonl": {
+      "bytes": 258896,
+      "sha256": "f64ef9edf4545441f2b705bc12515fe18e55483e1f23d0cc49b35c53f7d1658a"
+    },
+    "manifests/core_handoff/vits_hf_single_male_audio_map.jsonl": {
+      "bytes": 255536,
+      "sha256": "1f749980bc251bd90af303e1ab76e5ec56c7404ce4402cd698d1e7a3519bbba0"
+    },
+    "manifests/speaker_similarity_core_eval13.jsonl": {
+      "bytes": 7075803,
+      "sha256": "28102a526e09c373931531cb37202216db96ba10b6fbc242a931814a191a3b87"
+    },
+    "manifests/synthesis_core_eval13.jsonl": {
+      "bytes": 6403803,
+      "sha256": "54b741cf2d37972db437fe0a1d4df77b94294ba56e21552de86b94df50194362"
+    },
+    "manifests/transcription_core_eval13.jsonl": {
+      "bytes": 7408425,
+      "sha256": "22f0741f7d395636ebbd0824ef7f7aa377ad31625f38d521c87821898e7c7749"
+    },
+    "manifests/user_study_handoff/chatterbox_el_base_female_audio_map.jsonl": {
+      "bytes": 21987,
+      "sha256": "e82b882f0f9a9c10eb86bc68720b7470a2686545b9fab82857cbb4c6a34d9919"
+    },
+    "manifests/user_study_handoff/chatterbox_el_base_male_audio_map.jsonl": {
+      "bytes": 23569,
+      "sha256": "c395080da5c947a37b4dd2a214c012d7c3855a60c8857d6b0b810c97876cf6de"
+    },
+    "manifests/user_study_handoff/chatterbox_el_lora3_female_audio_map.jsonl": {
+      "bytes": 23467,
+      "sha256": "ede8efea86baf235345953cc9c3c8902fc36956d474ff47d50e50cda74700d88"
+    },
+    "manifests/user_study_handoff/chatterbox_el_lora3_male_audio_map.jsonl": {
+      "bytes": 25049,
+      "sha256": "bd060db2284a59e27e3992723df34e8be3b5b9b24aa8bf689871e19658f05abb"
+    },
+    "manifests/user_study_handoff/greek_male_lora_colab_audio_map.jsonl": {
+      "bytes": 49245,
+      "sha256": "3d8eeac5f8721667da9f2443cb972ef16f20634979c65eff1f4e0fd266c17fdd"
+    },
+    "manifests/user_study_handoff/parler_tts_el_det_michalis_audio_map.jsonl": {
+      "bytes": 27369,
+      "sha256": "ddd72e24c354707a4385d387945ab15e6d604db502a8852314bff70eb9c1e256"
+    },
+    "manifests/user_study_handoff/parler_tts_el_det_vasiliki_audio_map.jsonl": {
+      "bytes": 25387,
+      "sha256": "1e705a903b03b087d7638a7ee65b125b8cf374ff6dcef3d766b434e7ecfc5fc0"
+    },
+    "manifests/user_study_handoff/parler_tts_el_llm_michalis_audio_map.jsonl": {
+      "bytes": 28369,
+      "sha256": "7373ee366518a3e57275443e36cfc0b865d5568944ded71028df30fbb4ca13a5"
+    },
+    "manifests/user_study_handoff/parler_tts_el_llm_vasiliki_audio_map.jsonl": {
+      "bytes": 24987,
+      "sha256": "69f8a5cfde99281abc47e94eff3a51af3e9ca384de272073752aff75fdd7773b"
+    },
+    "manifests/user_study_handoff/vits_el_4gpu_audio_map.jsonl": {
+      "bytes": 45085,
+      "sha256": "9ee734a7e70cc8a394a99ca0ad81f3514f7e50cf337b3988fb225de5f01c307f"
+    },
+    "manifests/user_study_handoff/vits_hf_single_female_audio_map.jsonl": {
+      "bytes": 22867,
+      "sha256": "5db836800b526815503cea063c89433a876f0f4796b14368813f3d977a846e35"
+    },
+    "manifests/user_study_handoff/vits_hf_single_male_audio_map.jsonl": {
+      "bytes": 24369,
+      "sha256": "d4348f8d5e75dfdfc44071ae10d2efccb9b41d21e772b2e1aa885fd7b4038581"
+    },
+    "manifests/user_study_spk_sim.jsonl": {
+      "bytes": 776424,
+      "sha256": "6c965ff3b7011a7c7aa046e6eacf28a4baa326c39e811579d8d547baa4596d51"
+    },
+    "manifests/user_study_synth.jsonl": {
+      "bytes": 678424,
+      "sha256": "8e7dbe8a2f1ba8ebeed1b3e66bd219f2ae5e02a8aac28a7b19a8829d4d84ff35"
+    },
+    "preprocessing/llm_preprocessor.py": {
+      "bytes": 23261,
+      "sha256": "ba3d3286c4f09cf1518912d3a0b3e0b858ef16a7cbce851c035e48a4a7cba910"
+    },
+    "preprocessing/regex_normalizer.py": {
+      "bytes": 31826,
+      "sha256": "79ba50c6574336ad35f27df19e0d6e50fe36d78470515863161d8f8b2d4fd910"
+    },
+    "results/asr_scores_user_study.jsonl": {
+      "bytes": 506504,
+      "sha256": "5eb7ef5fcea9dad1ee81815b1b376068bffa72e0745bb0d822a782e6007a06b1"
+    },
+    "results/per_utterance_core_eval13.jsonl": {
+      "bytes": 3002429,
+      "sha256": "ecfb20319f7785484855127d934601ae393c5c2c4501d4863d7c49e3af024f38"
+    },
+    "results/per_utterance_user_study.jsonl": {
+      "bytes": 392087,
+      "sha256": "12f854fdbaa0b2eda00aee65604b8bba414fdc6e0dc5108fb10cfc6206296510"
+    },
+    "results/speaker_similarity_core_eval13.jsonl": {
+      "bytes": 4485927,
+      "sha256": "36f096877cf843b0301480bc5226427c7401ee5126af836e235ec1db3c8109e8"
+    },
+    "results/speaker_similarity_user_study.jsonl": {
+      "bytes": 457295,
+      "sha256": "36550b002eba76f9ec7a957e9aacaee1e99d24f84957ff625c0ab01d40c359da"
+    },
+    "scripts/build_user_study_synth.py": {
+      "bytes": 10733,
+      "sha256": "c1449a36ab2d7ffb5506a5afa07927d62721071b87ef5fb66abcc982e6a7b842"
+    },
+    "scripts/synth_colab_parler.py": {
+      "bytes": 3427,
+      "sha256": "a8f21071e1053cd403b04db088a4bf2aa8dd23111eb6a5e185207ed2166179a1"
+    },
+    "scripts/synth_parler.py": {
+      "bytes": 4311,
+      "sha256": "db11ad05d741d8e80e3edb8bfe7a5d57c5e1938fe9a66128711f0d529e59a6cb"
+    }
+  }
+}

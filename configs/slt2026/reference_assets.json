@@ -1,0 +1,668 @@
+{
+  "assets": [
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "colab_male",
+      "kind": "self_target_speaker",
+      "path": "artifacts/speaker_refs/greek_male_3.5h_ref.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_006",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_006.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_008",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_008.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_010",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_010.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_021",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_021.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_024",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_024.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_025",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_025.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_027",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_027.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_029",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_029.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_030",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_030.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_032",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_032.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_035",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_035.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_036",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_036.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_037",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_037.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_038",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_038.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_041",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_041.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_044",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_044.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_045",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_045.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_048",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_048.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_051",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_051.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_054",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_054.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_058",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_058.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_065",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_065.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_066",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_066.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_069",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_069.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_071",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_071.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_072",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_072.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_073",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_073.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_074",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_074.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_080",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_080.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_083",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_083.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_087",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_087.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_088",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_088.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_089",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_089.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_090",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_090.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_091",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_091.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_092",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_092.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_093",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_093.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_094",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_094.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_097",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_097.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_female_100",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/female/female_100.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_001",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_001.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_004",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_004.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_005",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_005.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_006",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_006.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_007",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_007.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_009",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_009.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_012",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_012.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_016",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_016.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_022",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_022.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_024",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_024.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_025",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_025.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_027",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_027.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_028",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_028.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_038",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_038.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_040",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_040.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_041",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_041.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_042",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_042.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_044",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_044.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_047",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_047.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_048",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_048.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_050",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_050.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_052",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_052.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_053",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_053.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_054",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_054.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_057",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_057.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_059",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_059.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_060",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_060.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_065",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_065.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_068",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_068.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_070",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_070.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_071",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_071.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_073",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_073.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_074",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_074.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_077",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_077.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_079",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_079.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_083",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_083.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_086",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_086.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_091",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_091.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_095",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_095.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "natural_male_098",
+      "kind": "natural_anchor",
+      "path": "user_study/natural_v1/male/male_098.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "shared_female",
+      "kind": "target_voice",
+      "path": "artifacts/speaker_refs/shared_female.wav",
+      "redistribution_status": "pending_review"
+    },
+    {
+      "availability": "not_in_repository",
+      "download_url": null,
+      "id": "shared_male",
+      "kind": "target_voice",
+      "path": "artifacts/speaker_refs/shared_male.wav",
+      "redistribution_status": "pending_review"
+    }
+  ]
+}

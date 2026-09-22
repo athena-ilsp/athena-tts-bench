@@ -1,0 +1,313 @@
+{
+  "dataset_id": "greek_punctuation_v1",
+  "language": "el",
+  "preprocessing": {
+    "method": "raw",
+    "normalizer": "identity"
+  },
+  "scenario": "punctuation",
+  "sentences": [
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_001",
+      "normalized_text": "Η Ελλάδα (επίσημα Ελληνική Δημοκρατία) είναι χώρα της νοτιοανατολικής Ευρώπης.",
+      "original_text": "Η Ελλάδα (επίσημα Ελληνική Δημοκρατία) είναι χώρα της νοτιοανατολικής Ευρώπης.",
+      "source_url": "curated",
+      "text": "Η Ελλάδα (επίσημα Ελληνική Δημοκρατία) είναι χώρα της νοτιοανατολικής Ευρώπης.",
+      "word_count": 12
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": true,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "pn_002",
+      "normalized_text": "Ο Παρθενώνας (Ακρόπολη Αθηνών, 5ος αιώνας π.Χ.) είναι μνημείο παγκόσμιας κληρονομιάς.",
+      "original_text": "Ο Παρθενώνας (Ακρόπολη Αθηνών, 5ος αιώνας π.Χ.) είναι μνημείο παγκόσμιας κληρονομιάς.",
+      "source_url": "curated",
+      "text": "Ο Παρθενώνας (Ακρόπολη Αθηνών, 5ος αιώνας π.Χ.) είναι μνημείο παγκόσμιας κληρονομιάς.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": true,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "pn_003",
+      "normalized_text": "Η Θεσσαλονίκη (συμπρωτεύουσα της Ελλάδας) ιδρύθηκε από τον Κάσσανδρο (316 π.Χ.).",
+      "original_text": "Η Θεσσαλονίκη (συμπρωτεύουσα της Ελλάδας) ιδρύθηκε από τον Κάσσανδρο (316 π.Χ.).",
+      "source_url": "curated",
+      "text": "Η Θεσσαλονίκη (συμπρωτεύουσα της Ελλάδας) ιδρύθηκε από τον Κάσσανδρο (316 π.Χ.).",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_007",
+      "normalized_text": "Το σύστημα υγείας (ΕΣΥ) παρέχει υπηρεσίες (πρωτοβάθμιες, δευτεροβάθμιες, τριτοβάθμιες) σε όλους τους πολίτες.",
+      "original_text": "Το σύστημα υγείας (ΕΣΥ) παρέχει υπηρεσίες (πρωτοβάθμιες, δευτεροβάθμιες, τριτοβάθμιες) σε όλους τους πολίτες.",
+      "source_url": "curated",
+      "text": "Το σύστημα υγείας (ΕΣΥ) παρέχει υπηρεσίες (πρωτοβάθμιες, δευτεροβάθμιες, τριτοβάθμιες) σε όλους τους πολίτες.",
+      "word_count": 15
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": true,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "pn_008",
+      "normalized_text": "Η οικονομική κρίση (2008-2018) επηρέασε σημαντικά το βιοτικό επίπεδο (ΑΕΠ, ανεργία, δημόσιο χρέος) της χώρας.",
+      "original_text": "Η οικονομική κρίση (2008-2018) επηρέασε σημαντικά το βιοτικό επίπεδο (ΑΕΠ, ανεργία, δημόσιο χρέος) της χώρας.",
+      "source_url": "curated",
+      "text": "Η οικονομική κρίση (2008-2018) επηρέασε σημαντικά το βιοτικό επίπεδο (ΑΕΠ, ανεργία, δημόσιο χρέος) της χώρας.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_009",
+      "normalized_text": "Δήλωσε: «Είπε 'ναι' χωρίς δεύτερη σκέψη».",
+      "original_text": "Δήλωσε: «Είπε 'ναι' χωρίς δεύτερη σκέψη».",
+      "source_url": "curated",
+      "text": "Δήλωσε: «Είπε 'ναι' χωρίς δεύτερη σκέψη».",
+      "word_count": 7
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "pn_010",
+      "normalized_text": "Ο δικηγόρος υποστήριξε: «Ο νόμος ορίζει: 'Κάθε πολίτης δικαιούται...' όπως αναφέρεται στο άρθρο 5».",
+      "original_text": "Ο δικηγόρος υποστήριξε: «Ο νόμος ορίζει: 'Κάθε πολίτης δικαιούται...' όπως αναφέρεται στο άρθρο 5».",
+      "source_url": "curated",
+      "text": "Ο δικηγόρος υποστήριξε: «Ο νόμος ορίζει: 'Κάθε πολίτης δικαιούται...' όπως αναφέρεται στο άρθρο 5».",
+      "word_count": 18
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_014",
+      "normalized_text": "Η δασκάλα ρώτησε: «Ποιος είπε 'Το μόνο που ξέρω είναι ότι δεν ξέρω τίποτα';».",
+      "original_text": "Η δασκάλα ρώτησε: «Ποιος είπε 'Το μόνο που ξέρω είναι ότι δεν ξέρω τίποτα';».",
+      "source_url": "curated",
+      "text": "Η δασκάλα ρώτησε: «Ποιος είπε 'Το μόνο που ξέρω είναι ότι δεν ξέρω τίποτα';».",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_016",
+      "normalized_text": "Έγραψε στο ημερολόγιό του: «Σήμερα μου είπε 'σε αγαπώ' για πρώτη φορά».",
+      "original_text": "Έγραψε στο ημερολόγιό του: «Σήμερα μου είπε 'σε αγαπώ' για πρώτη φορά».",
+      "source_url": "curated",
+      "text": "Έγραψε στο ημερολόγιό του: «Σήμερα μου είπε 'σε αγαπώ' για πρώτη φορά».",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_019",
+      "normalized_text": "Η ελληνική γλώσσα — μία από τις αρχαιότερες — έχει ιστορία άνω των τριών χιλιετιών.",
+      "original_text": "Η ελληνική γλώσσα — μία από τις αρχαιότερες — έχει ιστορία άνω των τριών χιλιετιών.",
+      "source_url": "curated",
+      "text": "Η ελληνική γλώσσα — μία από τις αρχαιότερες — έχει ιστορία άνω των τριών χιλιετιών.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_023",
+      "normalized_text": "Τα μέτρα ανακοινώθηκαν χθες· η εφαρμογή τους ξεκινά άμεσα· οι αντιδράσεις ποικίλλουν.",
+      "original_text": "Τα μέτρα ανακοινώθηκαν χθες· η εφαρμογή τους ξεκινά άμεσα· οι αντιδράσεις ποικίλλουν.",
+      "source_url": "curated",
+      "text": "Τα μέτρα ανακοινώθηκαν χθες· η εφαρμογή τους ξεκινά άμεσα· οι αντιδράσεις ποικίλλουν.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_024",
+      "normalized_text": "Η έρευνα — που διήρκεσε πέντε χρόνια — ολοκληρώθηκε· τα αποτελέσματα δημοσιεύτηκαν πρόσφατα.",
+      "original_text": "Η έρευνα — που διήρκεσε πέντε χρόνια — ολοκληρώθηκε· τα αποτελέσματα δημοσιεύτηκαν πρόσφατα.",
+      "source_url": "curated",
+      "text": "Η έρευνα — που διήρκεσε πέντε χρόνια — ολοκληρώθηκε· τα αποτελέσματα δημοσιεύτηκαν πρόσφατα.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_027",
+      "normalized_text": "Και τότε κατάλαβα... δεν είχε σημασία πια... όλα είχαν τελειώσει...",
+      "original_text": "Και τότε κατάλαβα... δεν είχε σημασία πια... όλα είχαν τελειώσει...",
+      "source_url": "curated",
+      "text": "Και τότε κατάλαβα... δεν είχε σημασία πια... όλα είχαν τελειώσει...",
+      "word_count": 12
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_029",
+      "normalized_text": "Έμεινα εκεί... κοιτάζοντας τη θάλασσα... σκεφτόμενος όσα είχαν συμβεί...",
+      "original_text": "Έμεινα εκεί... κοιτάζοντας τη θάλασσα... σκεφτόμενος όσα είχαν συμβεί...",
+      "source_url": "curated",
+      "text": "Έμεινα εκεί... κοιτάζοντας τη θάλασσα... σκεφτόμενος όσα είχαν συμβεί...",
+      "word_count": 10
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_031",
+      "normalized_text": "Πώς θα το κάνουμε αυτό; Είναι εξαιρετικά επείγον!",
+      "original_text": "Πώς θα το κάνουμε αυτό; Είναι εξαιρετικά επείγον!",
+      "source_url": "curated",
+      "text": "Πώς θα το κάνουμε αυτό; Είναι εξαιρετικά επείγον!",
+      "word_count": 9
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_032",
+      "normalized_text": "Μα είναι δυνατόν; Πώς συνέβη κάτι τέτοιο στην εποχή μας!",
+      "original_text": "Μα είναι δυνατόν; Πώς συνέβη κάτι τέτοιο στην εποχή μας!",
+      "source_url": "curated",
+      "text": "Μα είναι δυνατόν; Πώς συνέβη κάτι τέτοιο στην εποχή μας!",
+      "word_count": 12
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "pn_036",
+      "normalized_text": "Μπορείτε να μου εξηγήσετε τι ακριβώς εννοείτε; Δεν καταλαβαίνω!",
+      "original_text": "Μπορείτε να μου εξηγήσετε τι ακριβώς εννοείτε; Δεν καταλαβαίνω!",
+      "source_url": "curated",
+      "text": "Μπορείτε να μου εξηγήσετε τι ακριβώς εννοείτε; Δεν καταλαβαίνω!",
+      "word_count": 10
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "pn_041",
+      "normalized_text": "Σύμφωνα με την έκθεση [1][2][3] τα αποτελέσματα είναι ενθαρρυντικά.",
+      "original_text": "Σύμφωνα με την έκθεση [1][2][3] τα αποτελέσματα είναι ενθαρρυντικά.",
+      "source_url": "curated",
+      "text": "Σύμφωνα με την έκθεση [1][2][3] τα αποτελέσματα είναι ενθαρρυντικά.",
+      "word_count": 10
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "pn_044",
+      "normalized_text": "Αρκετές έρευνες [4][5][6] υποστηρίζουν την άποψη αυτή [βλ. επίσης 7].",
+      "original_text": "Αρκετές έρευνες [4][5][6] υποστηρίζουν την άποψη αυτή [βλ. επίσης 7].",
+      "source_url": "curated",
+      "text": "Αρκετές έρευνες [4][5][6] υποστηρίζουν την άποψη αυτή [βλ. επίσης 7].",
+      "word_count": 10
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "pn_045",
+      "normalized_text": "Οι συγγραφείς [1][2] προτείνουν μία νέα προσέγγιση [βλ. διάγραμμα 3].",
+      "original_text": "Οι συγγραφείς [1][2] προτείνουν μία νέα προσέγγιση [βλ. διάγραμμα 3].",
+      "source_url": "curated",
+      "text": "Οι συγγραφείς [1][2] προτείνουν μία νέα προσέγγιση [βλ. διάγραμμα 3].",
+      "word_count": 11
+    }
+  ],
+  "source": "Greek Wikipedia / curated",
+  "total_sentences": 20
+}

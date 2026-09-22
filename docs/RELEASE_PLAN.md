@@ -10,7 +10,7 @@ pushed by the maintainer before the next step begins.
 | Step | Scope | Status |
 | --- | --- | --- |
 | 1 | Public metadata, selected portable code, install specification, offline fixtures, tests, CI | Prepared in `d48fd49` |
-| 2 | Exact 140 texts, 420 normalized inputs, paper protocol, system registry, core/held-out manifests | Pending |
+| 2 | Exact 140 texts, 420 normalized inputs, paper protocol, system registry, core/held-out manifests | Prepared; see [input guide](SLT2026_INPUTS.md) |
 | 3 | Frozen scores, sanitized study exports, versioned prompts, expected outputs and paper reproduction | Pending |
 | 4 | Verified asset index/download tools, licenses, complete guides and release audit | Pending |
 
@@ -48,10 +48,9 @@ The complete R0 table/figure input mapping remains pending.
 
 ## Next inspection point
 
-Step 2 extracts the authoritative sentence/condition subset from the existing
-core manifest, checks byte-for-byte text equality, and exports portable
-manifests with stable IDs and reference mappings. Its acceptance checks cover
-counts, unique joins, system roster, and voice assignment.
+The frozen input export is prepared and validated. Step 3 now exports scores,
+exact judge prompts/settings, approved sanitized study records, and the existing
+analysis. Confirm the final submitted source before comparing paper cells.
 
 Step 3 will supply `scripts/reproduce_paper.py --preset slt2026`, once its
 inputs and calculations are verified. That command does not exist yet.

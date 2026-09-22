@@ -38,3 +38,16 @@ datasets passed structural validation with exact rough-word-count matching.
 Greek and Chinese offline rebuilds were byte-identical. These are integration
 checks, not evidence of equivalent linguistic quality across languages.
 Downloaded smoke-test snapshots and candidates are not included in Git.
+
+## Frozen paper-input validation (2026-09-22)
+
+The complete suite has 104 passing tests on Python 3.12.3. The input validator
+checks 140 source sentences, 420 normalized inputs, 5,040 core clips, 560
+held-out clips, eight model assets, 83 reference assets, and 42 file hashes.
+The release tests include intentional manifest and hash corruption.
+
+A second export from the private workspace produced byte-identical files and
+hash manifest. All 73 recorded source hashes matched; the original workspace
+and 19 imported implementation files were unchanged. Original word-count
+warnings are documented in the input audit rather than corrected. This does
+not yet validate paper scores, statistical outputs, or final manuscript cells.

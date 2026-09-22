@@ -1,0 +1,14 @@
+{
+  "align": false,
+  "alignment_model": null,
+  "backend": "whisperx",
+  "batch_size": 16,
+  "compute_type": "float16",
+  "device": "cuda",
+  "diarize": false,
+  "id": "whisperx_large_v3_el_noalign",
+  "language": "el",
+  "model": "large-v3",
+  "output_format": "json",
+  "task": "transcribe"
+}

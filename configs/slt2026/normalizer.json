@@ -1,0 +1,11 @@
+{
+  "backend": "transformers",
+  "device_map": "auto",
+  "id": "krikri_8b_instruct_llm_norm_v1",
+  "max_new_tokens": 1024,
+  "model": "ilsp/Llama-Krikri-8B-Instruct",
+  "model_revision": null,
+  "provider": "transformers",
+  "temperature": 0.0,
+  "torch_dtype": "auto"
+}

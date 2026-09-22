@@ -1,0 +1,322 @@
+{
+  "dataset_id": "greek_codeswitch_v1",
+  "language": "el",
+  "preprocessing": {
+    "method": "llm",
+    "model": "ilsp/Llama-Krikri-8B-Instruct",
+    "model_revision": null,
+    "normalizer": "LLMPreprocessor",
+    "provider": "transformers",
+    "sentences_with_warnings": 1,
+    "source_pool_sentences_with_warnings": 2
+  },
+  "scenario": "codeswitching",
+  "sentences": [
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_002",
+      "normalized_text": "Έκανα update το operating system του υπολογιστή.",
+      "original_text": "Έκανα update το operating system του υπολογιστή.",
+      "source_url": "curated",
+      "text": "Έκανα update το operating system του υπολογιστή.",
+      "word_count": 7
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_004",
+      "normalized_text": "Το network έχει υψηλή καθυστέρηση σήμερα λόγω υπερφόρτωσης.",
+      "original_text": "Το network έχει high latency σήμερα λόγω υπερφόρτωσης.",
+      "source_url": "curated",
+      "text": "Το network έχει high latency σήμερα λόγω υπερφόρτωσης.",
+      "word_count": 8
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_006",
+      "normalized_text": "Το bug στο source code προκάλεσε κατάρρευση του συστήματος.",
+      "original_text": "Το bug στο source code προκάλεσε crash του συστήματος.",
+      "source_url": "curated",
+      "text": "Το bug στο source code προκάλεσε crash του συστήματος.",
+      "word_count": 9
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_007",
+      "normalized_text": "Έκανε login στο λογαριασμό του από το smartphone.",
+      "original_text": "Έκανε login στο account του από το smartphone.",
+      "source_url": "curated",
+      "text": "Έκανε login στο account του από το smartphone.",
+      "word_count": 8
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_008",
+      "normalized_text": "Το framework της εφαρμογής υποστηρίζει επεξεργασία δεδομένων σε πραγματικό χρόνο.",
+      "original_text": "Το framework της εφαρμογής υποστηρίζει real-time processing δεδομένων.",
+      "source_url": "curated",
+      "text": "Το framework της εφαρμογής υποστηρίζει real-time processing δεδομένων.",
+      "word_count": 7
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_010",
+      "normalized_text": "Ο browser υποστηρίζει τα cookies και το JavaScript για καλύτερη εμπειρία.",
+      "original_text": "Ο browser υποστηρίζει cookies και JavaScript για καλύτερη εμπειρία.",
+      "source_url": "curated",
+      "text": "Ο browser υποστηρίζει cookies και JavaScript για καλύτερη εμπειρία.",
+      "word_count": 9
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "cs_011",
+      "normalized_text": "Το startup έλαβε χρηματοδότηση ύψους πέντε εκατομμυρίων ευρώ από ξένο επενδυτή.",
+      "original_text": "Το startup έλαβε funding ύψους 5 million ευρώ από ξένο επενδυτή.",
+      "source_url": "curated",
+      "text": "Το startup έλαβε funding ύψους 5 million ευρώ από ξένο επενδυτή.",
+      "word_count": 12
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_015",
+      "normalized_text": "\"Έγινε rebranding της εταιρείας μετά τη συγχώνευση (merger) με την ανταγωνίστρια.\" \n\nΣημείωση: Το \"rebranding\" είναι αγγλική λέξη που χρησιμοποιείται ευρέως στα ελληνικά και δεν χρειάζεται φωνητική απόδοση σε παρένθεση καθώς το TTS σύστημα μπορεί να την προφέρει σωστά.",
+      "original_text": "Έγινε rebranding της εταιρείας μετά το merger με την ανταγωνίστρια.",
+      "source_url": "curated",
+      "text": "Έγινε rebranding της εταιρείας μετά το merger με την ανταγωνίστρια.",
+      "word_count": 10
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_016",
+      "normalized_text": "Ο manager ζήτησε report για τα έσοδα του τελευταίου τριμήνου.",
+      "original_text": "Ο manager ζήτησε report για τα revenue του τελευταίου τριμήνου.",
+      "source_url": "curated",
+      "text": "Ο manager ζήτησε report για τα revenue του τελευταίου τριμήνου.",
+      "word_count": 11
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_021",
+      "normalized_text": "Έκανε share το post στο Facebook με όλους τους φίλους του.",
+      "original_text": "Έκανε share το post στο Facebook με όλους τους φίλους του.",
+      "source_url": "curated",
+      "text": "Έκανε share το post στο Facebook με όλους τους φίλους του.",
+      "word_count": 11
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_025",
+      "normalized_text": "Έστειλε email με επισυναπτόμενο το συμβόλαιο για υπογραφή.",
+      "original_text": "Έστειλε email με attachment το συμβόλαιο για υπογραφή.",
+      "source_url": "curated",
+      "text": "Έστειλε email με attachment το συμβόλαιο για υπογραφή.",
+      "word_count": 8
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_027",
+      "normalization_warnings": [
+        "output too long (ratio 10.22)",
+        "output has unexpected extra lines"
+      ],
+      "normalized_text": "Ανέβασε story στο Instagram με location tag στην Αθήνα.",
+      "original_text": "Ανέβασε story στο Instagram με location tag στην Αθήνα.",
+      "source_url": "curated",
+      "text": "Ανέβασε story στο Instagram με location tag στην Αθήνα.",
+      "word_count": 10
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_030",
+      "normalized_text": "Ο φοιτητής έκανε citation σε επιστημονικά άρθρα που έχουν αξιολογηθεί από ομότιμους (peer-reviewed articles) της βιβλιογραφίας.",
+      "original_text": "Ο φοιτητής έκανε citation σε peer-reviewed articles της βιβλιογραφίας.",
+      "source_url": "curated",
+      "text": "Ο φοιτητής έκανε citation σε peer-reviewed articles της βιβλιογραφίας.",
+      "word_count": 9
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_033",
+      "normalized_text": "Το dataset χρησιμοποιήθηκε για την εκπαίδευση deep learning μοντέλων.",
+      "original_text": "Το dataset χρησιμοποιήθηκε για την εκπαίδευση deep learning μοντέλων.",
+      "source_url": "curated",
+      "text": "Το dataset χρησιμοποιήθηκε για την εκπαίδευση deep learning μοντέλων.",
+      "word_count": 9
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_034",
+      "normalized_text": "Η διδακτορική διατριβή του υποψηφίου διδάκτορα εγκρίθηκε από την επιτροπή.",
+      "original_text": "Η PhD thesis του υποψήφιου διδάκτορα εγκρίθηκε από την επιτροπή.",
+      "source_url": "curated",
+      "text": "Η PhD thesis του υποψήφιου διδάκτορα εγκρίθηκε από την επιτροπή.",
+      "word_count": 11
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_035",
+      "normalized_text": "Το workshop για επεξεργασία φυσικής γλώσσας είχε μεγάλη συμμετοχή.",
+      "original_text": "Το workshop για natural language processing είχε μεγάλη συμμετοχή.",
+      "source_url": "curated",
+      "text": "Το workshop για natural language processing είχε μεγάλη συμμετοχή.",
+      "word_count": 10
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "cs_036",
+      "normalized_text": "Το βιβλίο κυκλοφόρησε από τον εκδοτικό οίκο Springer το δύο χιλιάδες είκοσι τρία.",
+      "original_text": "Το βιβλίο κυκλοφόρησε από τον εκδοτικό οίκο Springer το 2023.",
+      "source_url": "curated",
+      "text": "Το βιβλίο κυκλοφόρησε από τον εκδοτικό οίκο Springer το 2023.",
+      "word_count": 11
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_040",
+      "normalized_text": "Έβαλε playlist στο Spotify για το πάρτι γενεθλίων της.",
+      "original_text": "Έβαλε playlist στο Spotify για το πάρτι γενεθλίων της.",
+      "source_url": "curated",
+      "text": "Έβαλε playlist στο Spotify για το πάρτι γενεθλίων της.",
+      "word_count": 11
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_044",
+      "normalized_text": "Ο διευθύνων σύμβουλος της Microsoft ανακοίνωσε νέα προϊόντα τεχνητής νοημοσύνης.",
+      "original_text": "Ο CEO της Microsoft ανακοίνωσε νέα προϊόντα τεχνητής νοημοσύνης.",
+      "source_url": "curated",
+      "text": "Ο CEO της Microsoft ανακοίνωσε νέα προϊόντα τεχνητής νοημοσύνης.",
+      "word_count": 9
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "cs_047",
+      "normalized_text": "Ο Elon Musk αγόρασε το Twitter και το μετονόμασε σε X.",
+      "original_text": "Ο Elon Musk αγόρασε το Twitter και το μετονόμασε σε X.",
+      "source_url": "curated",
+      "text": "Ο Elon Musk αγόρασε το Twitter και το μετονόμασε σε X.",
+      "word_count": 12
+    }
+  ],
+  "source": "Greek Wikipedia / curated",
+  "total_sentences": 20
+}

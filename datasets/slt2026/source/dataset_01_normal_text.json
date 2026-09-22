@@ -1,0 +1,269 @@
+{
+  "dataset_id": "greek_normal_v1",
+  "language": "el",
+  "scenario": "normal_text",
+  "sentences": [
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_002",
+      "source_url": "https://el.wikipedia.org/wiki/Αθήνα",
+      "text": "Η Αθήνα είναι η πρωτεύουσα της χώρας και μία από τις αρχαιότερες πόλεις του κόσμου με συνεχή κατοίκηση.",
+      "word_count": 20
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_004",
+      "source_url": "https://el.wikipedia.org/wiki/Κρήτη",
+      "text": "Η Κρήτη είναι το μεγαλύτερο νησί της Ελλάδας και το πέμπτο μεγαλύτερο στη Μεσόγειο θάλασσα.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_006",
+      "source_url": "https://el.wikipedia.org/wiki/Παρθενώνας",
+      "text": "Ο Παρθενώνας είναι αρχαίος ναός στην Ακρόπολη των Αθηνών αφιερωμένος στη θεά Αθηνά.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_016",
+      "source_url": "https://el.wikipedia.org/wiki/Αρχαίοι_Ολυμπιακοί_Αγώνες",
+      "text": "Οι Ολυμπιακοί Αγώνες της αρχαιότητας τελούνταν στην Ολυμπία προς τιμήν του θεού Δία κάθε τέσσερα χρόνια.",
+      "word_count": 18
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_020",
+      "source_url": "https://el.wikipedia.org/wiki/Ελληνικοί_χοροί",
+      "text": "Στην ελληνική παράδοση ο χορός και το τραγούδι έχουν κεντρική θέση σε γιορτές και κοινωνικές εκδηλώσεις.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_029",
+      "source_url": "https://el.wikipedia.org/wiki/Εκπαίδευση_στην_Ελλάδα",
+      "text": "Η εκπαίδευση στην Ελλάδα είναι υποχρεωτική για όλα τα παιδιά από την ηλικία των τεσσάρων ετών έως τα δεκαπέντε.",
+      "word_count": 22
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_030",
+      "source_url": "https://el.wikipedia.org/wiki/Μεσογειακή_διατροφή",
+      "text": "Η μεσογειακή διατροφή που ακολουθούν οι Έλληνες περιλαμβάνει άφθονο ελαιόλαδο λαχανικά ψάρια και όσπρια.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_031",
+      "source_url": "https://el.wikipedia.org/wiki/Αλέξανδρος_ο_Μέγας",
+      "text": "Ο Αλέξανδρος ο Μέγας δημιούργησε μία από τις μεγαλύτερες αυτοκρατορίες της αρχαιότητας διαδίδοντας τον ελληνικό πολιτισμό στην Ασία.",
+      "word_count": 22
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_033",
+      "source_url": "https://el.wikipedia.org/wiki/Αρχαίο_ελληνικό_θέατρο",
+      "text": "Το θέατρο γεννήθηκε στην αρχαία Ελλάδα και αποτελούσε αναπόσπαστο μέρος της θρησκευτικής και πολιτικής ζωής της πόλης.",
+      "word_count": 22
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_035",
+      "source_url": "https://el.wikipedia.org/wiki/Προστασία_προσωπικών_δεδομένων",
+      "text": "Οι σύγχρονες τεχνολογικές εξελίξεις στον τομέα της πληροφορικής δημιουργούν νέες προκλήσεις για την προστασία των προσωπικών δεδομένων.",
+      "word_count": 19
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_036",
+      "source_url": "https://el.wikipedia.org/wiki/Σύνταγμα_της_Ελλάδας",
+      "text": "Το ελληνικό σύνταγμα κατοχυρώνει τα θεμελιώδη δικαιώματα του ανθρώπου και ορίζει τον τρόπο οργάνωσης της κρατικής εξουσίας.",
+      "word_count": 22
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_037",
+      "source_url": "https://el.wikipedia.org/wiki/Ιστορία_της_Ελλάδας",
+      "text": "Η βιομηχανική επανάσταση άργησε να φτάσει στην Ελλάδα λόγω της ιστορικής συγκυρίας και της μακροχρόνιας οθωμανικής κυριαρχίας.",
+      "word_count": 22
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_041",
+      "source_url": "https://el.wikipedia.org/wiki/Ελληνοτουρκικές_σχέσεις",
+      "text": "Οι ελληνοτουρκικές σχέσεις έχουν διαμορφωθεί από μακραίωνη ιστορική διαδρομή με περιόδους συνεργασίας και εντάσεων.",
+      "word_count": 15
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_042",
+      "source_url": "https://el.wikipedia.org/wiki/Γεωγραφία_της_Ελλάδας",
+      "text": "Η υδρογραφία της χώρας περιλαμβάνει σημαντικούς ποταμούς όπως ο Αχελώος και ο Έβρος και πολλές φυσικές και τεχνητές λίμνες.",
+      "word_count": 23
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_046",
+      "source_url": "https://el.wikipedia.org/wiki/Βαλκανικοί_πόλεμοι",
+      "text": "Οι βαλκανικοί πόλεμοι διαμόρφωσαν τη σύγχρονη γεωγραφία της νοτιοανατολικής Ευρώπης και τα εθνικά σύνορα της Ελλάδας.",
+      "word_count": 19
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_048",
+      "source_url": "https://el.wikipedia.org/wiki/Νεοελληνικός_Διαφωτισμός",
+      "text": "Το πνευματικό κίνημα του διαφωτισμού επηρέασε βαθιά την ελληνική διανόηση και συνέβαλε στην αφύπνιση της εθνικής συνείδησης.",
+      "word_count": 21
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_050",
+      "source_url": "https://el.wikipedia.org/wiki/Ελληνική_Επανάσταση",
+      "text": "Η Ελληνική Επανάσταση του δεκαεννέα ήταν καθοριστικό γεγονός που οδήγησε στη δημιουργία του ανεξάρτητου ελληνικού κράτους.",
+      "word_count": 19
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_051",
+      "source_url": "https://el.wikipedia.org/wiki/Αρχιτεκτονική_των_Κυκλάδων",
+      "text": "Η παραδοσιακή αρχιτεκτονική των νησιών του Αιγαίου με τα γραφικά σοκάκια και τις ασβεστωμένες αυλές προσελκύει εκατομμύρια επισκέπτες.",
+      "word_count": 21
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_052",
+      "source_url": "https://el.wikipedia.org/wiki/Αστυφιλία",
+      "text": "Το φαινόμενο της αστυφιλίας οδήγησε στη ραγδαία ανάπτυξη της Αθήνας και της Θεσσαλονίκης εις βάρος της ελληνικής περιφέρειας.",
+      "word_count": 22
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "normal_055",
+      "source_url": "https://el.wikipedia.org/wiki/Ευρωπαϊκή_Ένωση",
+      "text": "Η ένταξη της Ελλάδας στην Ευρωπαϊκή Ένωση υπήρξε ορόσημο για την οικονομική και πολιτική πορεία της χώρας.",
+      "word_count": 22
+    }
+  ],
+  "source": "Greek Wikipedia",
+  "total_sentences": 20
+}

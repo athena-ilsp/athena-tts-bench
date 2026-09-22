@@ -1,0 +1,76 @@
+{
+  "assets": [
+    {
+      "availability": "not_in_repository",
+      "checkpoint_filename": null,
+      "checkpoint_revision": null,
+      "download_url": null,
+      "id": "chatterbox_base",
+      "local_path": null,
+      "model_ref": "asset:slt2026/chatterbox_base"
+    },
+    {
+      "availability": "not_in_repository",
+      "checkpoint_filename": null,
+      "checkpoint_revision": null,
+      "download_url": null,
+      "id": "chatterbox_lora3",
+      "local_path": null,
+      "model_ref": "asset:slt2026/chatterbox_lora3"
+    },
+    {
+      "availability": "not_in_repository",
+      "checkpoint_filename": null,
+      "checkpoint_revision": null,
+      "download_url": null,
+      "id": "mms_female",
+      "local_path": null,
+      "model_ref": "asset:slt2026/mms_female"
+    },
+    {
+      "availability": "not_in_repository",
+      "checkpoint_filename": null,
+      "checkpoint_revision": null,
+      "download_url": null,
+      "id": "mms_male",
+      "local_path": null,
+      "model_ref": "asset:slt2026/mms_male"
+    },
+    {
+      "availability": "not_in_repository",
+      "checkpoint_filename": null,
+      "checkpoint_revision": null,
+      "download_url": null,
+      "id": "parler_colab",
+      "local_path": null,
+      "model_ref": "asset:slt2026/parler_colab"
+    },
+    {
+      "availability": "not_in_repository",
+      "checkpoint_filename": null,
+      "checkpoint_revision": null,
+      "download_url": null,
+      "id": "parler_det",
+      "local_path": null,
+      "model_ref": "asset:slt2026/parler_det"
+    },
+    {
+      "availability": "not_in_repository",
+      "checkpoint_filename": null,
+      "checkpoint_revision": null,
+      "download_url": null,
+      "id": "parler_llm",
+      "local_path": null,
+      "model_ref": "asset:slt2026/parler_llm"
+    },
+    {
+      "availability": "not_in_repository",
+      "checkpoint_filename": "G_90000.pth",
+      "checkpoint_revision": null,
+      "download_url": null,
+      "id": "vits_4gpu",
+      "local_path": null,
+      "model_ref": "asset:slt2026/vits_4gpu"
+    }
+  ]
+}

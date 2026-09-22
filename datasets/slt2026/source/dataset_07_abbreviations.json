@@ -1,0 +1,269 @@
+{
+  "dataset_id": "greek_abbreviations_v1",
+  "language": "el",
+  "scenario": "abbreviations",
+  "sentences": [
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_001",
+      "source_url": "curated",
+      "text": "Συμμετείχαν πολιτικοί, δημοσιογράφοι, καλλιτέχνες κ.ά. στην εκδήλωση.",
+      "word_count": 8
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_003",
+      "source_url": "curated",
+      "text": "Οι τιμές των προϊόντων, οι μισθοί, τα επιτόκια κτλ. επηρεάζουν την οικονομία.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_008",
+      "source_url": "curated",
+      "text": "Ο σκοπός είναι διττός, δηλ. αφενός η εκπαίδευση και αφετέρου η έρευνα.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_009",
+      "source_url": "curated",
+      "text": "Νησιά όπως η Νάξος, η Πάρος, η Μήλος κ.ά. έχουν μοναδική φυσική ομορφιά.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_012",
+      "source_url": "curated",
+      "text": "Τα δικαιώματα, δηλ. η ελευθερία, η ισότητα και η αδελφοσύνη, αποτελούν τον πυρήνα της δημοκρατίας.",
+      "word_count": 18
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": true,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_013",
+      "source_url": "curated",
+      "text": "Ο Παρθενώνας ολοκληρώθηκε το 438 π.Χ. κατά τη διάρκεια του χρυσού αιώνα της Αθήνας.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": true,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_014",
+      "source_url": "curated",
+      "text": "Η Ρωμαϊκή Αυτοκρατορία διαλύθηκε το 476 μ.Χ. μετά από αιώνες παρακμής.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_015",
+      "source_url": "curated",
+      "text": "Το δρομολόγιο αναχωρεί στις 8:30 π.μ. και φτάνει στις 11:45 π.μ.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_016",
+      "source_url": "curated",
+      "text": "Η συνάντηση έχει προγραμματιστεί για τις 7:00 μ.μ. στην αίθουσα συνεδριάσεων.",
+      "word_count": 12
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_021",
+      "source_url": "curated",
+      "text": "Η απόσταση Αθήνα-Θεσσαλονίκη είναι περίπου 500 χλμ. μέσω της εθνικής οδού.",
+      "word_count": 12
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_022",
+      "source_url": "curated",
+      "text": "Το διαμέρισμα έχει εμβαδόν 80 τ.μ. και βρίσκεται στον τρίτο όροφο.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_023",
+      "source_url": "curated",
+      "text": "Ο πληθυσμός της Ελλάδας είναι περίπου 10,5 εκ. σύμφωνα με την απογραφή.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_025",
+      "source_url": "curated",
+      "text": "Η ταχύτητα του οχήματος περιορίζεται στα 50 χλμ./ώρα εντός κατοικημένης περιοχής.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_028",
+      "source_url": "curated",
+      "text": "Το ΑΕΠ της χώρας έφτασε τα 200 δισ. το 2023, σημειώνοντας αύξηση 2%.",
+      "word_count": 15
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_029",
+      "source_url": "curated",
+      "text": "Η λίμνη έχει βάθος 12 μ. και η περίμετρός της είναι 40 χλμ.",
+      "word_count": 15
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_030",
+      "source_url": "curated",
+      "text": "Το όρος έχει υψόμετρο 2.917 μ. και βρίσκεται στην κεντρική Ελλάδα.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_040",
+      "source_url": "curated",
+      "text": "Για περισσότερες πληροφορίες, βλ. σελ. 45-67 της συγκεκριμένης έκδοσης.",
+      "word_count": 11
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_041",
+      "source_url": "curated",
+      "text": "Το βιβλίο κυκλοφόρησε από τις εκδ. Πατάκη σε νέα αναθεωρημένη έκδοση.",
+      "word_count": 12
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_042",
+      "source_url": "curated",
+      "text": "Όπως αναφέρεται στο ό.π., η προηγούμενη έρευνα κατέληξε σε παρόμοια συμπεράσματα.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_049",
+      "source_url": "curated",
+      "text": "Με βάση το ΦΕΚ Α' 150/2022 τροποποιήθηκαν οι διατάξεις περί αδειοδότησης επιχειρήσεων.",
+      "word_count": 13
+    }
+  ],
+  "source": "Greek Wikipedia / curated",
+  "total_sentences": 20
+}

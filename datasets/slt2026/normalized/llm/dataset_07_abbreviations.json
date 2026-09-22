@@ -1,0 +1,318 @@
+{
+  "dataset_id": "greek_abbreviations_v1",
+  "language": "el",
+  "preprocessing": {
+    "method": "llm",
+    "model": "ilsp/Llama-Krikri-8B-Instruct",
+    "model_revision": null,
+    "normalizer": "LLMPreprocessor",
+    "provider": "transformers",
+    "sentences_with_warnings": 0,
+    "source_pool_sentences_with_warnings": 0
+  },
+  "scenario": "abbreviations",
+  "sentences": [
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_001",
+      "normalized_text": "Συμμετείχαν πολιτικοί, δημοσιογράφοι, καλλιτέχνες και λοιπά στην εκδήλωση.",
+      "original_text": "Συμμετείχαν πολιτικοί, δημοσιογράφοι, καλλιτέχνες κ.ά. στην εκδήλωση.",
+      "source_url": "curated",
+      "text": "Συμμετείχαν πολιτικοί, δημοσιογράφοι, καλλιτέχνες κ.ά. στην εκδήλωση.",
+      "word_count": 8
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_003",
+      "normalized_text": "Οι τιμές των προϊόντων, οι μισθοί, τα επιτόκια και λοιπά στοιχεία επηρεάζουν την οικονομία.",
+      "original_text": "Οι τιμές των προϊόντων, οι μισθοί, τα επιτόκια κτλ. επηρεάζουν την οικονομία.",
+      "source_url": "curated",
+      "text": "Οι τιμές των προϊόντων, οι μισθοί, τα επιτόκια κτλ. επηρεάζουν την οικονομία.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_008",
+      "normalized_text": "Ο σκοπός είναι διττός, δηλαδή αφενός η εκπαίδευση και αφετέρου η έρευνα.",
+      "original_text": "Ο σκοπός είναι διττός, δηλ. αφενός η εκπαίδευση και αφετέρου η έρευνα.",
+      "source_url": "curated",
+      "text": "Ο σκοπός είναι διττός, δηλ. αφενός η εκπαίδευση και αφετέρου η έρευνα.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_009",
+      "normalized_text": "Νησιά όπως η Νάξος, η Πάρος, η Μήλος και άλλα έχουν μοναδική φυσική ομορφιά.",
+      "original_text": "Νησιά όπως η Νάξος, η Πάρος, η Μήλος κ.ά. έχουν μοναδική φυσική ομορφιά.",
+      "source_url": "curated",
+      "text": "Νησιά όπως η Νάξος, η Πάρος, η Μήλος κ.ά. έχουν μοναδική φυσική ομορφιά.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_012",
+      "normalized_text": "Τα δικαιώματα, δηλαδή η ελευθερία, η ισότητα και η αδελφοσύνη, αποτελούν τον πυρήνα της δημοκρατίας.",
+      "original_text": "Τα δικαιώματα, δηλ. η ελευθερία, η ισότητα και η αδελφοσύνη, αποτελούν τον πυρήνα της δημοκρατίας.",
+      "source_url": "curated",
+      "text": "Τα δικαιώματα, δηλ. η ελευθερία, η ισότητα και η αδελφοσύνη, αποτελούν τον πυρήνα της δημοκρατίας.",
+      "word_count": 18
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": true,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_013",
+      "normalized_text": "Ο Παρθενώνας ολοκληρώθηκε το τετρακόσια τριάντα οκτώ προ Χριστού κατά τη διάρκεια του χρυσού αιώνα της Αθήνας.",
+      "original_text": "Ο Παρθενώνας ολοκληρώθηκε το 438 π.Χ. κατά τη διάρκεια του χρυσού αιώνα της Αθήνας.",
+      "source_url": "curated",
+      "text": "Ο Παρθενώνας ολοκληρώθηκε το 438 π.Χ. κατά τη διάρκεια του χρυσού αιώνα της Αθήνας.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": true,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_014",
+      "normalized_text": "Η Ρωμαϊκή Αυτοκρατορία διαλύθηκε το τετρακόσια εβδομήντα έξι μετά Χριστόν μετά από αιώνες παρακμής.",
+      "original_text": "Η Ρωμαϊκή Αυτοκρατορία διαλύθηκε το 476 μ.Χ. μετά από αιώνες παρακμής.",
+      "source_url": "curated",
+      "text": "Η Ρωμαϊκή Αυτοκρατορία διαλύθηκε το 476 μ.Χ. μετά από αιώνες παρακμής.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_015",
+      "normalized_text": "Το δρομολόγιο αναχωρεί στις οκτώ και τριάντα ακριβώς και φτάνει στις έντεκα και σαράντα πέντε ακριβώς.",
+      "original_text": "Το δρομολόγιο αναχωρεί στις 8:30 π.μ. και φτάνει στις 11:45 π.μ.",
+      "source_url": "curated",
+      "text": "Το δρομολόγιο αναχωρεί στις 8:30 π.μ. και φτάνει στις 11:45 π.μ.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_016",
+      "normalized_text": "Η συνάντηση έχει προγραμματιστεί για τις επτά ακριβώς στην αίθουσα συνεδριάσεων.",
+      "original_text": "Η συνάντηση έχει προγραμματιστεί για τις 7:00 μ.μ. στην αίθουσα συνεδριάσεων.",
+      "source_url": "curated",
+      "text": "Η συνάντηση έχει προγραμματιστεί για τις 7:00 μ.μ. στην αίθουσα συνεδριάσεων.",
+      "word_count": 12
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_021",
+      "normalized_text": "Η απόσταση Αθήνα-Θεσσαλονίκη είναι περίπου πεντακόσια χιλιόμετρα μέσω της εθνικής οδού.",
+      "original_text": "Η απόσταση Αθήνα-Θεσσαλονίκη είναι περίπου 500 χλμ. μέσω της εθνικής οδού.",
+      "source_url": "curated",
+      "text": "Η απόσταση Αθήνα-Θεσσαλονίκη είναι περίπου 500 χλμ. μέσω της εθνικής οδού.",
+      "word_count": 12
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_022",
+      "normalized_text": "Το διαμέρισμα έχει εμβαδόν ογδόντα τετραγωνικά μέτρα και βρίσκεται στον τρίτο όροφο.",
+      "original_text": "Το διαμέρισμα έχει εμβαδόν 80 τ.μ. και βρίσκεται στον τρίτο όροφο.",
+      "source_url": "curated",
+      "text": "Το διαμέρισμα έχει εμβαδόν 80 τ.μ. και βρίσκεται στον τρίτο όροφο.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_023",
+      "normalized_text": "Ο πληθυσμός της Ελλάδας είναι περίπου δέκα εκατομμύρια πεντακόσιες χιλιάδες σύμφωνα με την απογραφή.",
+      "original_text": "Ο πληθυσμός της Ελλάδας είναι περίπου 10,5 εκ. σύμφωνα με την απογραφή.",
+      "source_url": "curated",
+      "text": "Ο πληθυσμός της Ελλάδας είναι περίπου 10,5 εκ. σύμφωνα με την απογραφή.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_025",
+      "normalized_text": "Η ταχύτητα του οχήματος περιορίζεται στα πενήντα χιλιόμετρα την ώρα εντός κατοικημένης περιοχής.",
+      "original_text": "Η ταχύτητα του οχήματος περιορίζεται στα 50 χλμ./ώρα εντός κατοικημένης περιοχής.",
+      "source_url": "curated",
+      "text": "Η ταχύτητα του οχήματος περιορίζεται στα 50 χλμ./ώρα εντός κατοικημένης περιοχής.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_028",
+      "normalized_text": "Το Ακαθάριστο Εγχώριο Προϊόν της χώρας έφτασε τα τετρακόσια δισεκατομμύρια ευρώ το δύο χιλιάδες είκοσι τρία, σημειώνοντας αύξηση δύο τοις εκατό.",
+      "original_text": "Το ΑΕΠ της χώρας έφτασε τα 200 δισ. το 2023, σημειώνοντας αύξηση 2%.",
+      "source_url": "curated",
+      "text": "Το ΑΕΠ της χώρας έφτασε τα 200 δισ. το 2023, σημειώνοντας αύξηση 2%.",
+      "word_count": 15
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_029",
+      "normalized_text": "Η λίμνη έχει βάθος δώδεκα μέτρα και η περίμετρός της είναι σαράντα χιλιόμετρα.",
+      "original_text": "Η λίμνη έχει βάθος 12 μ. και η περίμετρός της είναι 40 χλμ.",
+      "source_url": "curated",
+      "text": "Η λίμνη έχει βάθος 12 μ. και η περίμετρός της είναι 40 χλμ.",
+      "word_count": 15
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_030",
+      "normalized_text": "Το όρος έχει υψόμετρο δύο χιλιάδες εννιακόσια δεκαεπτά μέτρα και βρίσκεται στην κεντρική Ελλάδα.",
+      "original_text": "Το όρος έχει υψόμετρο 2.917 μ. και βρίσκεται στην κεντρική Ελλάδα.",
+      "source_url": "curated",
+      "text": "Το όρος έχει υψόμετρο 2.917 μ. και βρίσκεται στην κεντρική Ελλάδα.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_040",
+      "normalized_text": "Για περισσότερες πληροφορίες, βλ. σελίδες σαράντα πέντε έως εξήντα επτά της συγκεκριμένης έκδοσης.",
+      "original_text": "Για περισσότερες πληροφορίες, βλ. σελ. 45-67 της συγκεκριμένης έκδοσης.",
+      "source_url": "curated",
+      "text": "Για περισσότερες πληροφορίες, βλ. σελ. 45-67 της συγκεκριμένης έκδοσης.",
+      "word_count": 11
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_041",
+      "normalized_text": "Το βιβλίο κυκλοφόρησε από τις εκδόσεις Πατάκη σε νέα αναθεωρημένη έκδοση.",
+      "original_text": "Το βιβλίο κυκλοφόρησε από τις εκδ. Πατάκη σε νέα αναθεωρημένη έκδοση.",
+      "source_url": "curated",
+      "text": "Το βιβλίο κυκλοφόρησε από τις εκδ. Πατάκη σε νέα αναθεωρημένη έκδοση.",
+      "word_count": 12
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": true
+      },
+      "id": "ab_042",
+      "normalized_text": "Όπως αναφέρεται στο παραπάνω αναφερόμενο κείμενο, η προηγούμενη έρευνα κατέληξε σε παρόμοια συμπεράσματα.",
+      "original_text": "Όπως αναφέρεται στο ό.π., η προηγούμενη έρευνα κατέληξε σε παρόμοια συμπεράσματα.",
+      "source_url": "curated",
+      "text": "Όπως αναφέρεται στο ό.π., η προηγούμενη έρευνα κατέληξε σε παρόμοια συμπεράσματα.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "ab_049",
+      "normalized_text": "Με βάση το Φύλλο Εφημερίδας της Κυβερνήσεως Α' εκατόν πενήντα 2022 τροποποιήθηκαν οι διατάξεις περί αδειοδότησης επιχειρήσεων.",
+      "original_text": "Με βάση το ΦΕΚ Α' 150/2022 τροποποιήθηκαν οι διατάξεις περί αδειοδότησης επιχειρήσεων.",
+      "source_url": "curated",
+      "text": "Με βάση το ΦΕΚ Α' 150/2022 τροποποιήθηκαν οι διατάξεις περί αδειοδότησης επιχειρήσεων.",
+      "word_count": 13
+    }
+  ],
+  "source": "Greek Wikipedia / curated",
+  "total_sentences": 20
+}

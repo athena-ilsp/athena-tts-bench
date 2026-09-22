@@ -4,11 +4,11 @@ Evaluation framework for complex linguistic challenges in Modern Greek
 text-to-speech, accompanying the accepted IEEE SLT 2026 paper by Georgios
 Syllas, Kosmas Kritsis, Georgios Paraskevopoulos, and Vassilis Katsouros.
 
-**Release in preparation — step 1 of 4.** This checkout contains the code
-foundation, an offline example, and unit tests. The paper's benchmark data,
-frozen results, human-study exports, and downloadable audio/checkpoints will
-arrive in subsequent steps. Full paper reproduction is not available yet.
-See [release progress](docs/RELEASE_PLAN.md).
+**Release in preparation — paper inputs are included.** This checkout contains
+the code foundation, multilingual Wikipedia collection, and the frozen paper
+texts, normalization outputs, system registry, and manifests. Frozen scores,
+sanitized human-study exports, downloadable audio/checkpoints, and full paper
+reproduction follow in subsequent steps. See [release progress](docs/RELEASE_PLAN.md).
 
 ## Paper scope
 
@@ -17,6 +17,17 @@ three normalization conditions (`raw`, `regex`, `llm`), and 12 system slots:
 5,040 core clips, with a separate 560-clip held-out validation set and a
 30-listener study. The mixed-voice VITS slot retains its original assignment.
 The development-only `vits_el_1gpu` system is excluded from the paper roster.
+
+## Validate the paper inputs
+
+```bash
+python3 scripts/validate_slt2026_inputs.py
+```
+
+The [paper input guide](docs/SLT2026_INPUTS.md) describes the exact 140 texts,
+420 normalized inputs, 5,040 core clips and 560 held-out clips, voice/reference
+mappings, preserved historical warnings, and asset availability. Validation is
+offline; audio and weights are not required.
 
 ## Offline quickstart
 
@@ -56,7 +67,7 @@ Start with [Create a dataset in your language](docs/NEW_LANGUAGE_QUICKSTART.md)
 for an end-to-end example, then use the
 [full collection and language review guide](docs/WIKIPEDIA_DATASETS.md). Candidates need fluent review;
 collection does not guarantee benchmark quality or multilingual normalization
-and scoring support. The frozen paper dataset remains a separate release step.
+and scoring support. The frozen paper dataset is kept separately under `datasets/slt2026/`.
 
 ## Included code
 
@@ -67,8 +78,8 @@ and scoring support. The frozen paper dataset remains a separate release step.
 
 The imported implementation is preserved byte-for-byte; see
 [code provenance](docs/PROVENANCE.md). Generic CLI defaults are inherited from
-the development pipeline: pass explicit input paths/configuration until the
-paper preset is exported. The LLM API defaults are **not** the paper's Krikri
+the development pipeline: use the saved paper manifests for the accepted
+experiment and explicit input paths/configuration for new experiments. The LLM API defaults are **not** the paper's Krikri
 configuration. Do not regenerate the paper inputs using generic defaults.
 Optional inference dependencies and executed environments still require
 separate verification; see [environments](environments/README.md).

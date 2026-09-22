@@ -25,5 +25,7 @@ jobs:
         run: python scripts/validate_datasets.py --datasets-dir examples/offline/datasets --strict-word-count
       - name: Run offline example
         run: python scripts/offline_example.py
+      - name: Validate frozen paper inputs
+        run: python scripts/validate_slt2026_inputs.py
       - name: Run unit tests
         run: python -m pytest -q

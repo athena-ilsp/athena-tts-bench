@@ -24,3 +24,10 @@ Paper data, analysis scripts, real prompts/configuration, and results will be
 curated in subsequent steps. Embedded generic prompt templates already in the
 imported modules retain their original bytes; their presence alone does not
 identify the executed paper settings.
+
+The frozen paper-input export is now included separately. Its
+[`source_inventory.json`](../releases/slt2026/source_inventory.json) records
+the 73 private-source file hashes used for extraction and verification;
+[`inputs.sha256`](../releases/slt2026/inputs.sha256) pins the exported inputs.
+See the [paper input guide](SLT2026_INPUTS.md) for transformations, historical
+metadata differences, and the derived held-out transcription jobs.

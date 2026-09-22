@@ -1,0 +1,318 @@
+{
+  "dataset_id": "greek_acronyms_v1",
+  "language": "el",
+  "preprocessing": {
+    "method": "llm",
+    "model": "ilsp/Llama-Krikri-8B-Instruct",
+    "model_revision": null,
+    "normalizer": "LLMPreprocessor",
+    "provider": "transformers",
+    "sentences_with_warnings": 0,
+    "source_pool_sentences_with_warnings": 0
+  },
+  "scenario": "acronyms",
+  "sentences": [
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_002",
+      "normalized_text": "Το Διεθνές Νομισματικό Ταμείο και η Ευρωπαϊκή Κεντρική Τράπεζα συνεργάζονται στενά με την ελληνική κυβέρνηση για τη σταθεροποίηση της οικονομίας.",
+      "original_text": "Το ΔΝΤ και η ΕΚΤ συνεργάζονται στενά με την ελληνική κυβέρνηση για τη σταθεροποίηση της οικονομίας.",
+      "source_url": "https://el.wikipedia.org/wiki/Διεθνές_Νομισματικό_Ταμείο",
+      "text": "Το ΔΝΤ και η ΕΚΤ συνεργάζονται στενά με την ελληνική κυβέρνηση για τη σταθεροποίηση της οικονομίας.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_005",
+      "normalized_text": "Σύμφωνα με την Αρχή Διασφάλισης του Απορρήτου των Επικοινωνιών το απόρρητο των επικοινωνιών προστατεύεται από το Σύνταγμα και τη νομοθεσία.",
+      "original_text": "Σύμφωνα με την ΑΔΑΕ το απόρρητο των επικοινωνιών προστατεύεται από το Σύνταγμα και τη νομοθεσία.",
+      "source_url": "https://el.wikipedia.org/wiki/Αρχή_Διασφάλισης_του_Απορρήτου_των_Επικοινωνιών",
+      "text": "Σύμφωνα με την ΑΔΑΕ το απόρρητο των επικοινωνιών προστατεύεται από το Σύνταγμα και τη νομοθεσία.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_010",
+      "normalized_text": "Ο Οργανισμός για την Ασφάλεια και τη Συνεργασία στην Ευρώπη προωθεί τη συνεργασία στον τομέα της ασφάλειας μεταξύ των κρατών μελών της περιοχής.",
+      "original_text": "Ο ΟΑΣΕ προωθεί τη συνεργασία στον τομέα της ασφάλειας μεταξύ των κρατών μελών της περιοχής.",
+      "source_url": "https://el.wikipedia.org/wiki/ΟΑΣΕ",
+      "text": "Ο ΟΑΣΕ προωθεί τη συνεργασία στον τομέα της ασφάλειας μεταξύ των κρατών μελών της περιοχής.",
+      "word_count": 18
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_011",
+      "normalized_text": "Η Νέα Δημοκρατία και ο Συνασπισμός Ριζοσπαστικής Αριστεράς είναι τα δύο μεγαλύτερα πολιτικά κόμματα στην ελληνική Βουλή.",
+      "original_text": "Η ΝΔ και ο ΣΥΡΙΖΑ είναι τα δύο μεγαλύτερα πολιτικά κόμματα στην ελληνική Βουλή.",
+      "source_url": "https://el.wikipedia.org/wiki/Νέα_Δημοκρατία",
+      "text": "Η ΝΔ και ο ΣΥΡΙΖΑ είναι τα δύο μεγαλύτερα πολιτικά κόμματα στην ελληνική Βουλή.",
+      "word_count": 15
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_012",
+      "normalized_text": "Το ΠΑΣΟΚ και το ΚΚΕ διατηρούν μακρά ιστορική παρουσία στην πολιτική σκηνή της Ελλάδας.",
+      "original_text": "Το ΠΑΣΟΚ και το ΚΚΕ διατηρούν μακρά ιστορική παρουσία στην πολιτική σκηνή της Ελλάδας.",
+      "source_url": "https://el.wikipedia.org/wiki/ΠΑΣΟΚ",
+      "text": "Το ΠΑΣΟΚ και το ΚΚΕ διατηρούν μακρά ιστορική παρουσία στην πολιτική σκηνή της Ελλάδας.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_015",
+      "normalized_text": "Η συζήτηση στη Βουλή ήταν έντονη με αντιπαραθέσεις μεταξύ βουλευτών της Νέας Δημοκρατίας, του ΣΥΡΙΖΑ και του Κομμουνιστικού Κόμματος Ελλάδας.",
+      "original_text": "Η συζήτηση στη Βουλή ήταν έντονη με αντιπαραθέσεις μεταξύ βουλευτών της ΝΔ του ΣΥΡΙΖΑ και του ΚΚΕ.",
+      "source_url": "https://el.wikipedia.org/wiki/Βουλή_των_Ελλήνων",
+      "text": "Η συζήτηση στη Βουλή ήταν έντονη με αντιπαραθέσεις μεταξύ βουλευτών της ΝΔ του ΣΥΡΙΖΑ και του ΚΚΕ.",
+      "word_count": 18
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_017",
+      "normalized_text": "Οι σύγχρονοι ηλεκτρονικοί υπολογιστές χρησιμοποιούν αλγορίθμους τεχνητής νοημοσύνης για την επεξεργασία μεγάλου όγκου δεδομένων.",
+      "original_text": "Οι σύγχρονοι Η/Υ χρησιμοποιούν αλγορίθμους ΤΝ για την επεξεργασία μεγάλου όγκου δεδομένων.",
+      "source_url": "https://el.wikipedia.org/wiki/Υπολογιστής",
+      "text": "Οι σύγχρονοι Η/Υ χρησιμοποιούν αλγορίθμους ΤΝ για την επεξεργασία μεγάλου όγκου δεδομένων.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_022",
+      "normalized_text": "Η Γενική Γραμματεία Πληροφοριακών Συστημάτων είναι υπεύθυνη για τα πληροφοριακά συστήματα του δημοσίου και τη λειτουργία του Ενιαίου Φορέα Κοινωνικής Ασφάλισης.",
+      "original_text": "Η ΓΓΠΣ είναι υπεύθυνη για τα πληροφοριακά συστήματα του δημοσίου και τη λειτουργία του ΕΦΚΑ.",
+      "source_url": "https://el.wikipedia.org/wiki/ΓΓΠΣ",
+      "text": "Η ΓΓΠΣ είναι υπεύθυνη για τα πληροφοριακά συστήματα του δημοσίου και τη λειτουργία του ΕΦΚΑ.",
+      "word_count": 18
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_026",
+      "normalized_text": "Η πανδημία COVID-19 επηρέασε βαθιά την παγκόσμια οικονομία και ανέδειξε τη σημασία των συστημάτων τεχνητής νοημοσύνης.",
+      "original_text": "Η πανδημία COVID-19 επηρέασε βαθιά την παγκόσμια οικονομία και ανέδειξε τη σημασία των συστημάτων AI.",
+      "source_url": "https://el.wikipedia.org/wiki/COVID-19",
+      "text": "Η πανδημία COVID-19 επηρέασε βαθιά την παγκόσμια οικονομία και ανέδειξε τη σημασία των συστημάτων AI.",
+      "word_count": 19
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_028",
+      "normalized_text": "Η ανάπτυξη εφαρμογών τεχνητής νοημοσύνης και GPS συνέβαλε στη διαχείριση της πανδημίας COVID-19 σε παγκόσμιο επίπεδο.",
+      "original_text": "Η ανάπτυξη εφαρμογών AI και GPS συνέβαλε στη διαχείριση της πανδημίας COVID-19 σε παγκόσμιο επίπεδο.",
+      "source_url": "https://el.wikipedia.org/wiki/COVID-19",
+      "text": "Η ανάπτυξη εφαρμογών AI και GPS συνέβαλε στη διαχείριση της πανδημίας COVID-19 σε παγκόσμιο επίπεδο.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_030",
+      "normalized_text": "Το δελτίο ειδήσεων της ΕΡΤ μετέδωσε αποκλειστικό ρεπορτάζ του Αθηναϊκού-Μακεδονικού Πρακτορείου Ειδήσεων για την κρίση στη Μέση Ανατολή.",
+      "original_text": "Το δελτίο ειδήσεων της ΕΡΤ μετέδωσε αποκλειστικό ρεπορτάζ του ΑΠΕ-ΜΠΕ για την κρίση στη Μέση Ανατολή.",
+      "source_url": "https://el.wikipedia.org/wiki/ΑΠΕ-ΜΠΕ",
+      "text": "Το δελτίο ειδήσεων της ΕΡΤ μετέδωσε αποκλειστικό ρεπορτάζ του ΑΠΕ-ΜΠΕ για την κρίση στη Μέση Ανατολή.",
+      "word_count": 20
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_033",
+      "normalized_text": "Πολλοί ερευνητές που κατέχουν διδακτορικό τίτλο διδάσκουν σε Ανώτατα Εκπαιδευτικά Ιδρύματα και Τεχνολογικά Εκπαιδευτικά Ιδρύματα συμβάλλοντας στην ανάπτυξη της επιστήμης.",
+      "original_text": "Πολλοί ερευνητές που κατέχουν PhD διδάσκουν σε ΑΕΙ και ΤΕΙ συμβάλλοντας στην ανάπτυξη της επιστήμης.",
+      "source_url": "https://el.wikipedia.org/wiki/Ανώτατα_εκπαιδευτικά_ιδρύματα_στην_Ελλάδα",
+      "text": "Πολλοί ερευνητές που κατέχουν PhD διδάσκουν σε ΑΕΙ και ΤΕΙ συμβάλλοντας στην ανάπτυξη της επιστήμης.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_039",
+      "normalized_text": "Ο Οργανισμός Ηνωμένων Εθνών μέσω της ΟΥΝΕΣΚΟ προωθεί προγράμματα εκπαίδευσης και πολιτισμού σε αναπτυσσόμενες χώρες.",
+      "original_text": "Ο ΟΗΕ μέσω της UNESCO προωθεί προγράμματα εκπαίδευσης και πολιτισμού σε αναπτυσσόμενες χώρες.",
+      "source_url": "https://el.wikipedia.org/wiki/UNESCO",
+      "text": "Ο ΟΗΕ μέσω της UNESCO προωθεί προγράμματα εκπαίδευσης και πολιτισμού σε αναπτυσσόμενες χώρες.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_040",
+      "normalized_text": "Η συμφωνία της ΕΡΤ με το ΑΠΕ-ΜΠΕ και την ΟΥΝΕΣΚΟ εξασφαλίζει έγκυρη ενημέρωση και πολιτιστικό περιεχόμενο.",
+      "original_text": "Η συμφωνία της ΕΡΤ με το ΑΠΕ-ΜΠΕ και την UNESCO εξασφαλίζει έγκυρη ενημέρωση και πολιτιστικό περιεχόμενο.",
+      "source_url": "https://el.wikipedia.org/wiki/ΕΡΤ",
+      "text": "Η συμφωνία της ΕΡΤ με το ΑΠΕ-ΜΠΕ και την UNESCO εξασφαλίζει έγκυρη ενημέρωση και πολιτιστικό περιεχόμενο.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_042",
+      "normalized_text": "Τα προγράμματα ΕΣΠΑ χρηματοδοτούν Ινστιτούτα Επαγγελματικής Κατάρτισης και Ανώτατα Εκπαιδευτικά Ιδρύματα για τον εκσυγχρονισμό των υποδομών εκπαίδευσης.",
+      "original_text": "Τα προγράμματα ΕΣΠΑ χρηματοδοτούν ΙΕΚ και ΑΕΙ για τον εκσυγχρονισμό των υποδομών εκπαίδευσης.",
+      "source_url": "https://el.wikipedia.org/wiki/ΕΣΠΑ",
+      "text": "Τα προγράμματα ΕΣΠΑ χρηματοδοτούν ΙΕΚ και ΑΕΙ για τον εκσυγχρονισμό των υποδομών εκπαίδευσης.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_046",
+      "normalized_text": "Η Νέα Δημοκρατία πρότεινε τη μείωση του Ενιαίου Φόρου Ιδιοκτησίας Ακινήτων ενώ ο Συνασπισμός Ριζοσπαστικής Αριστεράς ζήτησε αύξηση των δαπανών για το Ευρωπαϊκό Κοινωνικό Ταμείο.",
+      "original_text": "Η ΝΔ πρότεινε τη μείωση του ΕΝΦΙΑ ενώ ο ΣΥΡΙΖΑ ζήτησε αύξηση των δαπανών για το ΕΣΠΑ.",
+      "source_url": "https://el.wikipedia.org/wiki/Νέα_Δημοκρατία",
+      "text": "Η ΝΔ πρότεινε τη μείωση του ΕΝΦΙΑ ενώ ο ΣΥΡΙΖΑ ζήτησε αύξηση των δαπανών για το ΕΣΠΑ.",
+      "word_count": 20
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_052",
+      "normalized_text": "Απόφοιτοι ΑΕΙ με διδακτορικό στον τομέα της τεχνητής νοημοσύνης αναζητούνται από μεγάλες τεχνολογικές εταιρείες στην Ευρώπη.",
+      "original_text": "Απόφοιτοι ΑΕΙ με PhD στον τομέα της ΤΝ αναζητούνται από μεγάλες τεχνολογικές εταιρείες στην Ευρώπη.",
+      "source_url": "https://el.wikipedia.org/wiki/Ανώτατα_εκπαιδευτικά_ιδρύματα_στην_Ελλάδα",
+      "text": "Απόφοιτοι ΑΕΙ με PhD στον τομέα της ΤΝ αναζητούνται από μεγάλες τεχνολογικές εταιρείες στην Ευρώπη.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_053",
+      "normalized_text": "Η ΕΡΤ μετέδωσε συνέντευξη του προέδρου του ΠΑΣΟΚ ενώ το Αθηναϊκό-Μακεδονικό Πρακτορείο Ειδήσεων (ΑΠΕ-ΜΠΕ) κάλυψε την ομιλία του αρχηγού της Νέας Δημοκρατίας.",
+      "original_text": "Η ΕΡΤ μετέδωσε συνέντευξη του προέδρου του ΠΑΣΟΚ ενώ το ΑΠΕ-ΜΠΕ κάλυψε την ομιλία του αρχηγού της ΝΔ.",
+      "source_url": "https://el.wikipedia.org/wiki/ΕΡΤ",
+      "text": "Η ΕΡΤ μετέδωσε συνέντευξη του προέδρου του ΠΑΣΟΚ ενώ το ΑΠΕ-ΜΠΕ κάλυψε την ομιλία του αρχηγού της ΝΔ.",
+      "word_count": 24
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_055",
+      "normalized_text": "Το ΙΚΑ ενσωματώθηκε στον ΕΦΚΑ στο πλαίσιο της μεταρρύθμισης του ασφαλιστικού συστήματος που προώθησε το Υπουργείο Οικονομικών.",
+      "original_text": "Το ΙΚΑ ενσωματώθηκε στον ΕΦΚΑ στο πλαίσιο της μεταρρύθμισης του ασφαλιστικού συστήματος που προώθησε το ΥΠΟΙΚ.",
+      "source_url": "https://el.wikipedia.org/wiki/ΕΦΚΑ",
+      "text": "Το ΙΚΑ ενσωματώθηκε στον ΕΦΚΑ στο πλαίσιο της μεταρρύθμισης του ασφαλιστικού συστήματος που προώθησε το ΥΠΟΙΚ.",
+      "word_count": 19
+    },
+    {
+      "characteristics": {
+        "has_acronyms": true,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": false,
+        "has_punctuation": false
+      },
+      "id": "acro_060",
+      "normalized_text": "Ο Οργανισμός Τηλεπικοινωνιών Ελλάδος και η Δημόσια Επιχείρηση Ηλεκτρισμού σε συνεργασία με το Εθνικό Συμβούλιο Ραδιοτηλεόρασης και την Αρχή Διασφάλισης του Απορρήτου των Επικοινωνιών διασφαλίζουν την ποιότητα των υπηρεσιών προς τους πολίτες.",
+      "original_text": "Ο ΟΤΕ και η ΔΕΗ σε συνεργασία με το ΕΣΡ και την ΑΔΑΕ διασφαλίζουν την ποιότητα των υπηρεσιών προς τους πολίτες.",
+      "source_url": "https://el.wikipedia.org/wiki/ΟΤΕ",
+      "text": "Ο ΟΤΕ και η ΔΕΗ σε συνεργασία με το ΕΣΡ και την ΑΔΑΕ διασφαλίζουν την ποιότητα των υπηρεσιών προς τους πολίτες.",
+      "word_count": 22
+    }
+  ],
+  "source": "Greek Wikipedia / Synthetic",
+  "total_sentences": 20
+}

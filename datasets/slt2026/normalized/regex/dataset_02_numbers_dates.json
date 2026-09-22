@@ -1,0 +1,313 @@
+{
+  "dataset_id": "greek_numbers_dates_v1",
+  "language": "el",
+  "preprocessing": {
+    "method": "regex",
+    "normalizer": "GreekRegexNormalizer"
+  },
+  "scenario": "numbers_dates",
+  "sentences": [
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": true
+      },
+      "id": "num_001",
+      "normalized_text": "Ο πληθυσμός της Ελλάδας ανέρχεται σε δέκα εκατομμύρια τετρακόσιες ογδόντα δύο χιλιάδες τετρακόσια ογδόντα επτά κατοίκους σύμφωνα με την τελευταία απογραφή.",
+      "original_text": "Ο πληθυσμός της Ελλάδας ανέρχεται σε 10.482.487 κατοίκους σύμφωνα με την τελευταία απογραφή.",
+      "source_url": "https://el.wikipedia.org/wiki/Ελλάδα",
+      "text": "Ο πληθυσμός της Ελλάδας ανέρχεται σε 10.482.487 κατοίκους σύμφωνα με την τελευταία απογραφή.",
+      "word_count": 15
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_002",
+      "normalized_text": "Στην Αθήνα κατοικούν τρία εκατομμύρια επτακόσιες ενενήντα δύο χιλιάδες τετρακόσια εξήντα εννέα άνθρωποι στην ευρύτερη μητροπολιτική περιοχή.",
+      "original_text": "Στην Αθήνα κατοικούν 3.792.469 άνθρωποι στην ευρύτερη μητροπολιτική περιοχή.",
+      "source_url": "https://el.wikipedia.org/wiki/Αθήνα",
+      "text": "Στην Αθήνα κατοικούν 3.792.469 άνθρωποι στην ευρύτερη μητροπολιτική περιοχή.",
+      "word_count": 11
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_004",
+      "normalized_text": "Η συνολική έκταση της χώρας υπολογίζεται σε εκατόν τριάντα μία χιλιάδες εννιακόσια πενήντα επτά τετραγωνικά χιλιόμετρα.",
+      "original_text": "Η συνολική έκταση της χώρας υπολογίζεται σε 131.957 τετραγωνικά χιλιόμετρα.",
+      "source_url": "https://el.wikipedia.org/wiki/Ελλάδα",
+      "text": "Η συνολική έκταση της χώρας υπολογίζεται σε 131.957 τετραγωνικά χιλιόμετρα.",
+      "word_count": 11
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_005",
+      "normalized_text": "Η ακτογραμμή της Ελλάδας εκτείνεται σε μήκος δεκατρείς χιλιάδες εξακόσια εβδομήντα έξι χιλιομέτρων αποτελώντας τη μεγαλύτερη στη Μεσόγειο.",
+      "original_text": "Η ακτογραμμή της Ελλάδας εκτείνεται σε μήκος 13.676 χιλιομέτρων αποτελώντας τη μεγαλύτερη στη Μεσόγειο.",
+      "source_url": "https://el.wikipedia.org/wiki/Γεωγραφία_της_Ελλάδας",
+      "text": "Η ακτογραμμή της Ελλάδας εκτείνεται σε μήκος 13.676 χιλιομέτρων αποτελώντας τη μεγαλύτερη στη Μεσόγειο.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_008",
+      "normalized_text": "Το όρος Όλυμπος έχει υψόμετρο δύο χιλιάδες εννιακόσια δεκαοκτώ μέτρα και είναι το ψηλότερο βουνό της χώρας.",
+      "original_text": "Το όρος Όλυμπος έχει υψόμετρο 2.918 μέτρα και είναι το ψηλότερο βουνό της χώρας.",
+      "source_url": "https://el.wikipedia.org/wiki/Όλυμπος",
+      "text": "Το όρος Όλυμπος έχει υψόμετρο 2.918 μέτρα και είναι το ψηλότερο βουνό της χώρας.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_014",
+      "normalized_text": "Σύμφωνα με τον δείκτη ανθρώπινης ανάπτυξης η Ελλάδα κατατάσσεται στην τριακοστή δεύτερη θέση παγκοσμίως.",
+      "original_text": "Σύμφωνα με τον δείκτη ανθρώπινης ανάπτυξης η Ελλάδα κατατάσσεται στην 32η θέση παγκοσμίως.",
+      "source_url": "https://el.wikipedia.org/wiki/Ελλάδα",
+      "text": "Σύμφωνα με τον δείκτη ανθρώπινης ανάπτυξης η Ελλάδα κατατάσσεται στην 32η θέση παγκοσμίως.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_019",
+      "normalized_text": "Η Θεσσαλονίκη είναι η δεύτερη μεγαλύτερη πόλη της Ελλάδας και σημαντικό πολιτιστικό κέντρο των Βαλκανίων.",
+      "original_text": "Η Θεσσαλονίκη είναι η 2η μεγαλύτερη πόλη της Ελλάδας και σημαντικό πολιτιστικό κέντρο των Βαλκανίων.",
+      "source_url": "https://el.wikipedia.org/wiki/Θεσσαλονίκη",
+      "text": "Η Θεσσαλονίκη είναι η 2η μεγαλύτερη πόλη της Ελλάδας και σημαντικό πολιτιστικό κέντρο των Βαλκανίων.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": true,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_022",
+      "normalized_text": "Η Ελλάδα εισήλθε στην Ευρωπαϊκή Οικονομική Κοινότητα την πρώτη Ιανουαρίου χίλια εννιακόσια ογδόντα ένα.",
+      "original_text": "Η Ελλάδα εισήλθε στην Ευρωπαϊκή Οικονομική Κοινότητα την 1η Ιανουαρίου 1981.",
+      "source_url": "https://el.wikipedia.org/wiki/Ιστορία_της_Ελλάδας",
+      "text": "Η Ελλάδα εισήλθε στην Ευρωπαϊκή Οικονομική Κοινότητα την 1η Ιανουαρίου 1981.",
+      "word_count": 12
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": true,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_027",
+      "normalized_text": "Το ευρώ υιοθετήθηκε ως εθνικό νόμισμα την πρώτη Ιανουαρίου δύο χιλιάδες δύο αντικαθιστώντας τη δραχμή.",
+      "original_text": "Το ευρώ υιοθετήθηκε ως εθνικό νόμισμα την 1η Ιανουαρίου 2002 αντικαθιστώντας τη δραχμή.",
+      "source_url": "https://el.wikipedia.org/wiki/Ελλάδα",
+      "text": "Το ευρώ υιοθετήθηκε ως εθνικό νόμισμα την 1η Ιανουαρίου 2002 αντικαθιστώντας τη δραχμή.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": true,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_028",
+      "normalized_text": "Η Γερμανική εισβολή στην Ελλάδα ξεκίνησε την έξι Απριλίου χίλια εννιακόσια σαράντα ένα και ολοκληρώθηκε τον Ιούνιο του ίδιου έτους.",
+      "original_text": "Η Γερμανική εισβολή στην Ελλάδα ξεκίνησε την 6η Απριλίου 1941 και ολοκληρώθηκε τον Ιούνιο του ίδιου έτους.",
+      "source_url": "https://el.wikipedia.org/wiki/Γερμανική_εισβολή_στην_Ελλάδα",
+      "text": "Η Γερμανική εισβολή στην Ελλάδα ξεκίνησε την 6η Απριλίου 1941 και ολοκληρώθηκε τον Ιούνιο του ίδιου έτους.",
+      "word_count": 21
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": true,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_030",
+      "normalized_text": "Η Συνθήκη των Σεβρών υπογράφηκε την δέκα Αυγούστου χίλια εννιακόσια είκοσι αλλά δεν εφαρμόστηκε ποτέ στην πράξη.",
+      "original_text": "Η Συνθήκη των Σεβρών υπογράφηκε την 10η Αυγούστου 1920 αλλά δεν εφαρμόστηκε ποτέ στην πράξη.",
+      "source_url": "https://el.wikipedia.org/wiki/Συνθήκη_των_Σεβρών",
+      "text": "Η Συνθήκη των Σεβρών υπογράφηκε την 10η Αυγούστου 1920 αλλά δεν εφαρμόστηκε ποτέ στην πράξη.",
+      "word_count": 19
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_036",
+      "normalized_text": "Το ποσοστό ανεργίας στην Ελλάδα μειώθηκε στο έντεκα και δύο τοις εκατό το δεύτερο τρίμηνο του έτους.",
+      "original_text": "Το ποσοστό ανεργίας στην Ελλάδα μειώθηκε στο 11,2% το δεύτερο τρίμηνο του έτους.",
+      "source_url": "https://el.wikipedia.org/wiki/Ανεργία_στην_Ελλάδα",
+      "text": "Το ποσοστό ανεργίας στην Ελλάδα μειώθηκε στο 11,2% το δεύτερο τρίμηνο του έτους.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_038",
+      "normalized_text": "Το ποσοστό των ανανεώσιμων πηγών ενέργειας στο ενεργειακό μείγμα έφτασε το σαράντα δύο τοις εκατό το προηγούμενο έτος.",
+      "original_text": "Το ποσοστό των ανανεώσιμων πηγών ενέργειας στο ενεργειακό μείγμα έφτασε το 42% το προηγούμενο έτος.",
+      "source_url": "https://el.wikipedia.org/wiki/Ανανεώσιμες_πηγές_ενέργειας_στην_Ελλάδα",
+      "text": "Το ποσοστό των ανανεώσιμων πηγών ενέργειας στο ενεργειακό μείγμα έφτασε το 42% το προηγούμενο έτος.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_041",
+      "normalized_text": "Ο δείκτης βιομηχανικής παραγωγής σημείωσε άνοδο τέσσερα και οκτώ τοις εκατό τον μήνα Φεβρουάριο του τρέχοντος έτους.",
+      "original_text": "Ο δείκτης βιομηχανικής παραγωγής σημείωσε άνοδο 4,8% τον μήνα Φεβρουάριο του τρέχοντος έτους.",
+      "source_url": "https://el.wikipedia.org/wiki/Οικονομία_της_Ελλάδας",
+      "text": "Ο δείκτης βιομηχανικής παραγωγής σημείωσε άνοδο 4,8% τον μήνα Φεβρουάριο του τρέχοντος έτους.",
+      "word_count": 16
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_046",
+      "normalized_text": "Η επένδυση ανήλθε στο ποσό των ένα εκατομμύριο διακόσιες χιλιάδες ευρώ για την ανάπτυξη της νέας τεχνολογικής πλατφόρμας.",
+      "original_text": "Η επένδυση ανήλθε στο ποσό των 1.200.000 € για την ανάπτυξη της νέας τεχνολογικής πλατφόρμας.",
+      "source_url": "https://el.wikipedia.org/wiki/Οικονομία_της_Ελλάδας",
+      "text": "Η επένδυση ανήλθε στο ποσό των 1.200.000 € για την ανάπτυξη της νέας τεχνολογικής πλατφόρμας.",
+      "word_count": 17
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_047",
+      "normalized_text": "Ο μέσος μηνιαίος μισθός στον ιδιωτικό τομέα διαμορφώνεται στα χίλια διακόσια ευρώ μεικτά.",
+      "original_text": "Ο μέσος μηνιαίος μισθός στον ιδιωτικό τομέα διαμορφώνεται στα 1.200 € μεικτά.",
+      "source_url": "https://el.wikipedia.org/wiki/Οικονομία_της_Ελλάδας",
+      "text": "Ο μέσος μηνιαίος μισθός στον ιδιωτικό τομέα διαμορφώνεται στα 1.200 € μεικτά.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": true,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_049",
+      "normalized_text": "Το ακίνητο αγοράστηκε έναντι του ποσού των τριακόσιες πενήντα χιλιάδες δολάρια σύμφωνα με το συμβόλαιο πώλησης.",
+      "original_text": "Το ακίνητο αγοράστηκε έναντι του ποσού των $350.000 σύμφωνα με το συμβόλαιο πώλησης.",
+      "source_url": "https://el.wikipedia.org/wiki/Αγορά_ακινήτων",
+      "text": "Το ακίνητο αγοράστηκε έναντι του ποσού των $350.000 σύμφωνα με το συμβόλαιο πώλησης.",
+      "word_count": 14
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_052",
+      "normalized_text": "Περίπου τα δύο τρίτα των ελληνικών εξαγωγών κατευθύνονται σε χώρες της Ευρωπαϊκής Ένωσης.",
+      "original_text": "Περίπου τα 2/3 των ελληνικών εξαγωγών κατευθύνονται σε χώρες της Ευρωπαϊκής Ένωσης.",
+      "source_url": "https://el.wikipedia.org/wiki/Οικονομία_της_Ελλάδας",
+      "text": "Περίπου τα 2/3 των ελληνικών εξαγωγών κατευθύνονται σε χώρες της Ευρωπαϊκής Ένωσης.",
+      "word_count": 13
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_059",
+      "normalized_text": "Η θερμοκρασία στο κέντρο της Αθήνας κυμάνθηκε από μείον δύο°C έως συν οκτώ°C κατά τη διάρκεια της κακοκαιρίας.",
+      "original_text": "Η θερμοκρασία στο κέντρο της Αθήνας κυμάνθηκε από -2°C έως +8°C κατά τη διάρκεια της κακοκαιρίας.",
+      "source_url": "https://el.wikipedia.org/wiki/Κλίμα_της_Ελλάδας",
+      "text": "Η θερμοκρασία στο κέντρο της Αθήνας κυμάνθηκε από -2°C έως +8°C κατά τη διάρκεια της κακοκαιρίας.",
+      "word_count": 20
+    },
+    {
+      "characteristics": {
+        "has_acronyms": false,
+        "has_dates": false,
+        "has_english": false,
+        "has_numbers": true,
+        "has_punctuation": false
+      },
+      "id": "num_060",
+      "normalized_text": "Η περίοδος δύο χιλιάδες είκοσι–δύο χιλιάδες είκοσι πέντε θεωρείται κρίσιμη για την επίτευξη των ευρωπαϊκών στόχων για το περιβάλλον.",
+      "original_text": "Η περίοδος 2020–2025 θεωρείται κρίσιμη για την επίτευξη των ευρωπαϊκών στόχων για το περιβάλλον.",
+      "source_url": "https://el.wikipedia.org/wiki/Ευρωπαϊκή_Πράσινη_Συμφωνία",
+      "text": "Η περίοδος 2020–2025 θεωρείται κρίσιμη για την επίτευξη των ευρωπαϊκών στόχων για το περιβάλλον.",
+      "word_count": 16
+    }
+  ],
+  "source": "Greek Wikipedia / Synthetic",
+  "total_sentences": 20
+}

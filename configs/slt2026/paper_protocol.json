@@ -1,0 +1,895 @@
+{
+  "analysis_status": "frozen scores/statistics/human exports and final camera-ready cell verification follow separately",
+  "counts": {
+    "core_clips": 5040,
+    "heldout_clips": 560,
+    "heldout_sentences": 80,
+    "normalized_inputs": 420,
+    "scenarios": 7,
+    "sentences": 140,
+    "sentences_per_scenario": 20,
+    "systems": 12
+  },
+  "excluded_systems": [
+    "vits_el_1gpu"
+  ],
+  "heldout_transcription_status": "new portable jobs derived from saved synthesis inputs and recorded ASR config; historical job manifest unavailable",
+  "historical_data_quality": {
+    "normalization": "original text, warnings and fallbacks preserved",
+    "word_count": "original metadata preserved; release audit lists differences"
+  },
+  "methods": [
+    "raw",
+    "regex",
+    "llm"
+  ],
+  "paths": {
+    "manifests": "manifests/slt2026",
+    "normalized": "datasets/slt2026/normalized",
+    "source": "datasets/slt2026/source",
+    "systems": "configs/slt2026/systems.json"
+  },
+  "paths_relative_to": "repository root; external model assets require explicit local_path bindings",
+  "preset": "slt2026",
+  "selection": {
+    "export_policy": "actual IDs from saved manifests, no resampling",
+    "max_source_tokens": 25,
+    "seed": 20260610
+  },
+  "sentences": [
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_001"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_003"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_008"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_009"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_012"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_013"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_014"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_015"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_016"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_021"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_022"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_023"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_025"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_028"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_029"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_030"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_040"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_041"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_042"
+    },
+    {
+      "dataset_file": "dataset_07_abbreviations.json",
+      "dataset_id": "greek_abbreviations_v1",
+      "scenario": "abbreviations",
+      "sentence_id": "ab_049"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_002"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_005"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_010"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_011"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_012"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_015"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_017"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_022"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_026"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_028"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_030"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_033"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_039"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_040"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_042"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_046"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_052"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_053"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_055"
+    },
+    {
+      "dataset_file": "dataset_03_acronyms.json",
+      "dataset_id": "greek_acronyms_v1",
+      "scenario": "acronyms",
+      "sentence_id": "acro_060"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_002"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_004"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_006"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_007"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_008"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_010"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_011"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_015"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_016"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_021"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_025"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_027"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_030"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_033"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_034"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_035"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_036"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_040"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_044"
+    },
+    {
+      "dataset_file": "dataset_04_codeswitching.json",
+      "dataset_id": "greek_codeswitch_v1",
+      "scenario": "codeswitching",
+      "sentence_id": "cs_047"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_002"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_004"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_006"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_016"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_020"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_029"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_030"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_031"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_033"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_035"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_036"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_037"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_041"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_042"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_046"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_048"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_050"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_051"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_052"
+    },
+    {
+      "dataset_file": "dataset_01_normal_text.json",
+      "dataset_id": "greek_normal_v1",
+      "scenario": "normal_text",
+      "sentence_id": "normal_055"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_001"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_002"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_004"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_005"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_008"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_014"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_019"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_022"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_027"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_028"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_030"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_036"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_038"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_041"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_046"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_047"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_049"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_052"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_059"
+    },
+    {
+      "dataset_file": "dataset_02_numbers_dates.json",
+      "dataset_id": "greek_numbers_dates_v1",
+      "scenario": "numbers_dates",
+      "sentence_id": "num_060"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_001"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_002"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_003"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_007"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_008"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_009"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_010"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_014"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_016"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_019"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_023"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_024"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_027"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_029"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_031"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_032"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_036"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_041"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_044"
+    },
+    {
+      "dataset_file": "dataset_05_punctuation.json",
+      "dataset_id": "greek_punctuation_v1",
+      "scenario": "punctuation",
+      "sentence_id": "pn_045"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_001"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_002"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_006"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_007"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_008"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_011"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_012"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_014"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_015"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_018"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_020"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_021"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_025"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_029"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_031"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_033"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_035"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_036"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_037"
+    },
+    {
+      "dataset_file": "dataset_12_morphological.json",
+      "dataset_id": "morphological_complexity_v1",
+      "scenario": "morphological_complexity",
+      "sentence_id": "el_morph_040"
+    }
+  ],
+  "system_ids": [
+    "chatterbox_el_base_female",
+    "chatterbox_el_base_male",
+    "chatterbox_el_lora3_female",
+    "chatterbox_el_lora3_male",
+    "greek_male_lora_colab",
+    "parler_tts_el_det_michalis",
+    "parler_tts_el_det_vasiliki",
+    "parler_tts_el_llm_michalis",
+    "parler_tts_el_llm_vasiliki",
+    "vits_el_4gpu",
+    "vits_hf_single_female",
+    "vits_hf_single_male"
+  ]
+}
