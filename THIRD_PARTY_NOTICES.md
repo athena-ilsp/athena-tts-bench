@@ -17,3 +17,9 @@ Dependency, checkpoint, dataset, and hosted-service terms are separate from
 project-owned code. Exact revisions, applicable notices, and redistribution
 status will be recorded with each released environment or asset. This table
 is an integration inventory, not a completed license/redistribution audit.
+
+The optional Wikipedia collector accesses the MediaWiki Action API; it does
+not vendor Wikipedia text. Generated snapshots/datasets retain article,
+revision/history links and the site's reported rights information. Their
+redistribution terms are separate from the code license; see the
+[collection and attribution guide](docs/WIKIPEDIA_DATASETS.md).

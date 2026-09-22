@@ -46,6 +46,17 @@ python scripts/build_preprocessed_datasets.py \
 The distribution name is `athena-tts-bench`; existing Python imports remain
 `greekttsbench` and `preprocessing`. Install into a dedicated environment.
 
+## Collect candidates for another language
+
+A Wikipedia collector is available for new datasets. It saves article revisions
+and attribution, then builds filtered, deduplicated candidates offline with
+recorded settings and seeded sampling. No extra dependencies are required.
+
+Read [Building a dataset from Wikipedia](docs/WIKIPEDIA_DATASETS.md) for commands
+and language-specific review guidance. Candidates need fluent review;
+collection does not guarantee benchmark quality or multilingual normalization
+and scoring support. The frozen paper dataset remains a separate release step.
+
 ## Included code
 
 - Dataset validation, normalization, and synthesis/transcription manifest builders.

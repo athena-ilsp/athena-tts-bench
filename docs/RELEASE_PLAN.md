@@ -9,10 +9,20 @@ pushed by the maintainer before the next step begins.
 
 | Step | Scope | Status |
 | --- | --- | --- |
-| 1 | Public metadata, selected portable code, install specification, offline fixtures, tests, CI | Prepared in this commit |
+| 1 | Public metadata, selected portable code, install specification, offline fixtures, tests, CI | Prepared in `d48fd49` |
 | 2 | Exact 140 texts, 420 normalized inputs, paper protocol, system registry, core/held-out manifests | Pending |
 | 3 | Frozen scores, sanitized study exports, versioned prompts, expected outputs and paper reproduction | Pending |
 | 4 | Verified asset index/download tools, licenses, complete guides and release audit | Pending |
+
+## Additional requested capability: Wikipedia candidate collection
+
+Prepared as a separate commit after the code foundation: configurable Wikipedia
+edition/title/category collection, revision snapshots, offline extraction and
+seeded filtering, provenance, synthetic tests, and a per-language review guide.
+See [Wikipedia datasets](WIKIPEDIA_DATASETS.md). This addition is authorized
+before the paper-data export; the remaining four-stage release sequence and
+accepted experiment are unchanged. It creates unreviewed candidates, not a
+guarantee of equivalent quality across languages.
 
 ## Baseline and invariants
 
