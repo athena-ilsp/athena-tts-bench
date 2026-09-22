@@ -52,8 +52,9 @@ A Wikipedia collector is available for new datasets. It saves article revisions
 and attribution, then builds filtered, deduplicated candidates offline with
 recorded settings and seeded sampling. No extra dependencies are required.
 
-Read [Building a dataset from Wikipedia](docs/WIKIPEDIA_DATASETS.md) for commands
-and language-specific review guidance. Candidates need fluent review;
+Start with [Create a dataset in your language](docs/NEW_LANGUAGE_QUICKSTART.md)
+for an end-to-end example, then use the
+[full collection and language review guide](docs/WIKIPEDIA_DATASETS.md). Candidates need fluent review;
 collection does not guarantee benchmark quality or multilingual normalization
 and scoring support. The frozen paper dataset remains a separate release step.
 
