@@ -69,3 +69,11 @@ resynthesis are separate workflows.
 Large audio files/checkpoints will be versioned download assets with hashes.
 The final paper release will be immutable; later experiments get separate
 presets and result directories.
+
+## Companion training repository
+
+The [training repository plan](TRAINING_REPOSITORY_PLAN.md) inventories our
+training/data-preparation repositories, public dependencies, five corpora, and
+every evaluated model asset. It defines staged migration into a separate repo
+whose URL the maintainer will provide. This is planning only; training code and
+private corpora have not been imported into AthenaTTS-Bench.
